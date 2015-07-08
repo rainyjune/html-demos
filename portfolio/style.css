@@ -1,0 +1,50 @@
+/* Reset */
+body {
+  margin: 0;
+}
+
+/* App */
+.container {
+  background-color: blue;
+  overflow: auto;
+}
+
+.header {
+  background: url(./images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 1072px;
+}
+
+#aboutus {
+  width: 904px;
+  height: 414px;
+  margin: 146px auto 72px auto;
+  background-color: white;
+}
+
+#services {
+  background: url(./images/service-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 488px;
+}
+
+#whatwedo {
+  width: 902px;
+  height: 1196px;
+  margin: 106px auto 115px auto;
+  background-color: gray;
+}
+
+#works {
+  height: 484px;
+  background-color: aqua;
+}
+
+#footer {
+  width: 902px;
+  height: 408px;
+  margin: 134px auto 58px auto;
+  background-color: green;
+}
