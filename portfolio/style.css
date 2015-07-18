@@ -112,12 +112,15 @@ body {
   color: white;
   position: relative;
   overflow: visible;
+  box-sizing: border-box;
+  padding-top: 65px;
+
+  font-family: "Lato";
 }
 
 #services .container h2{
   text-align: center;
   font-size: 34px;
-  font-family: lato;
   font-weight; bold;
   position: absolute;
   width: 418px;
@@ -129,18 +132,18 @@ body {
 }
 
 #services .container > div {
-  width: 552px;
+  width: 555px;
   height: 186px;
   margin: auto; 
-  padding-top: 65px;
   overflow: auto;
 }
 
 #services .container > div p {
   text-align: center;
   font-size: 16px;
-  font-family: lato;
   font-weight: lighter;
+  margin: 0;
+  line-height: 1.618;
 }
 
 #whatwedo {
