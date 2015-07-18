@@ -64,17 +64,17 @@ body {
 }
 
 #aboutus {
-  width: 904px;
-  height: 414px;
-  margin: 146px auto 72px auto;
+  width: 898px;
+  height: 308px;
+  margin: 160px auto 158px auto;
   background-color: white;
-  border: 1px solid black;
+  border: 2px solid rgb(60, 60, 60);
   position: relative;
+  font-family: "Lato";
 }
 
 #aboutus h2 {
   text-transform: uppercase;
-  font-family: "lato bold";
   font-size: 34px;
   width: 420px;
   background-color: white;
@@ -91,8 +91,13 @@ body {
   text-align: center;
   font-size: 16px;
   color: #3c3c3c;
-  margin-top: 72px;
-  font-family: lato;
+  margin-top: 74px;
+}
+
+#aboutus div p {
+  margin: 0;
+  line-height: 1.5;
+  font-weight: lighter;
 }
 
 
