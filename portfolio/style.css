@@ -153,9 +153,70 @@ body {
 
 #whatwedo {
   width: 902px;
-  height: 1196px;
-  margin: 106px auto 115px auto;
-  background-color: gray;
+  height: 1183px;
+  margin: 119px auto 114px auto;
+  box-sizing: border-box;
+  border: 2px solid rgb(60, 60, 60);
+
+  font-family: "Lato";
+  position: relative;
+  text-align: center;
+}
+
+#whatwedo h2 {
+  width: 420px;
+  height: 28px;
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  margin: 0;
+  margin-left: -210px;
+  text-align: center;
+  background-color: white;
+  text-transform: uppercase;
+  color: rgb(60, 60, 60);
+  font-weight: bold;
+}
+
+#whatwedo h3 {
+  box-sizing: border-box; 
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#whatwedo h3.design {
+  background-image: url(./images/design.png);
+  width: 80px;
+  height: 139px;
+  margin: 114px auto 37px auto;
+  padding-top: 100px;
+}
+
+#whatwedo h3.development {
+  background-image: url(./images/development.png);
+  width: 180px;
+  height: 139px;
+  margin: 114px auto 37px auto;
+  padding-top: 100px;
+}
+
+#whatwedo h3.productManagement {
+  background-image: url(./images/productManagement.png);
+  width: 280px;
+  height: 139px;
+  margin: 114px auto 37px auto;
+  padding-top: 100px;
+}
+
+#whatwedo p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: lighter;
+  width: 554px;
+  margin: auto;
 }
 
 #works {
