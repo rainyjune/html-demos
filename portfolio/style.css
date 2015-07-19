@@ -4,7 +4,7 @@ body {
   font-family: "Lato";
 }
 
-h3 {
+p, h2, h3 {
   margin: 0;
 }
 
@@ -277,9 +277,50 @@ h3 {
   line-height: 1.2;
 }
 
-#footer {
-  width: 902px;
-  height: 408px;
-  margin: 134px auto 58px auto;
-  background-color: green;
+#contact {
+  box-sizing: border-box;
+  border: 2px solid #3c3c3c;
+  width: 899px;
+  height: 293px;
+  margin: 138px auto 63px auto;
+  position: relative;
+  text-align: center;
+}
+
+#contact h2 {
+  width: 419px;
+  height: 22px;
+  background-color: white;
+  line-height: 22px;
+  text-transform: uppercase;
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  margin-left: -210px;
+  color: #3c3c3c;
+  font-weight: bold;
+}
+
+#contact p {
+  width: 554px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #3c3c3c;
+  margin-top: 74px;
+}
+
+#contact .button {
+  background-color: #3c3c3c;
+  color: white;
+  width: 395px; 
+  height: 58px;
+  position: absolute;
+  left: 50%;
+  margin-left: -198px;
+  bottom: 50px;
+  line-height: 58px;
+  text-transform: uppercase;
+  font-size: 16px;
 }
