@@ -161,6 +161,7 @@ body {
   font-family: "Lato";
   position: relative;
   text-align: center;
+  color: rgb(60, 60, 60);
 }
 
 #whatwedo h2 {
@@ -189,26 +190,23 @@ body {
 
 #whatwedo h3.design {
   background-image: url(./images/design.png);
-  width: 80px;
-  height: 139px;
-  margin: 114px auto 37px auto;
-  padding-top: 100px;
+  height: 143px;
+  margin: 124px auto 35px auto;
+  padding-top: 120px;
 }
 
 #whatwedo h3.development {
   background-image: url(./images/development.png);
-  width: 180px;
-  height: 139px;
-  margin: 114px auto 37px auto;
-  padding-top: 100px;
+  height: 131px;
+  margin: 110px auto 42px auto;
+  padding-top: 112px;
 }
 
 #whatwedo h3.productManagement {
   background-image: url(./images/productManagement.png);
-  width: 280px;
-  height: 139px;
-  margin: 114px auto 37px auto;
-  padding-top: 100px;
+  height: 152px;
+  margin: 93px auto 47px auto;
+  padding-top: 136px;
 }
 
 #whatwedo p {
@@ -217,6 +215,7 @@ body {
   font-weight: lighter;
   width: 554px;
   margin: auto;
+  line-height: 1.849;
 }
 
 #works {
