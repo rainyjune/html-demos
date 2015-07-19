@@ -1,6 +1,11 @@
 /* Reset */
 body {
   margin: 0;
+  font-family: "Lato";
+}
+
+h3 {
+  margin: 0;
 }
 
 /* App */
@@ -220,7 +225,56 @@ body {
 
 #works {
   height: 484px;
-  background-color: aqua;
+  width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#works > div {
+  float: left;
+  height: 237px;
+  margin-right: 10px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+#works > div:nth-child(3n) {
+  margin-right: 0;
+}
+
+#works > div:nth-child(-n+3) {
+  margin-bottom: 9px;
+}
+
+#works > div:nth-child(1),
+#works > div:nth-child(4) {
+  width: 548px;
+}
+
+#works > div:nth-child(2), 
+#works > div:nth-child(5) {
+  width: 802px;
+}
+
+#works > div:nth-child(3),
+#works > div:nth-child(6) {
+  width: 550px;
+}
+
+#works > div img {
+  width: 100%;
+  height: 100%;
+}
+
+#works > div h3 {
+  text-transform: uppercase;
+  position: absolute;
+  left: 48px;
+  top: 169px;
+  font-size: 34px;
+  color: white;
+  font-weight: bold;
+  line-height: 1.2;
 }
 
 #footer {
