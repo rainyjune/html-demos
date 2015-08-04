@@ -8,6 +8,15 @@ ul {
   padding: 0;
 }
 
+h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 .main-container {
   width: 800px;
   margin: 0 auto;
@@ -35,6 +44,82 @@ ul {
   color: #f5ecd4;
   text-decoration: none;
   text-shadow: 0px 1px 4.75px rgba(0, 0, 0, 0.75);
+}
+
+.main-container .main-body {
+  min-height: 676px;
+  padding-top: 13px;
+  overflow: auto;
+}
+
+.main-container .main-body .left-col {
+  width: 523px;
+  float: left;
+  margin-left: 18px;
+}
+
+.main-container .main-body .left-col #quick-jumps{
+  width: 197px;
+  float: left;
+  margin-right: 20px;
+  background: url(../images/remote.png) no-repeat bottom;
+  padding-bottom: 120px;
+}
+
+.main-container .main-body .left-col #quick-jumps h2 {
+  background-color: #f5c843;
+  color: #5f0d04;
+  text-transform: uppercase;
+  text-align: center;
+  height: 23px;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.main-container .main-body .left-col #quick-jumps ul {
+  margin-top: 19px;
+  margin-left: 8px;
+  list-style-image: url(../images/dot.png);
+  list-style-position: inside;
+}
+
+.main-container .main-body .left-col #quick-jumps ul li a{
+  color: black;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.main-container .main-body .left-col h1{
+  font-size: 1.5em;
+}
+
+.main-container .main-body .left-col p{
+  font-size: 0.6em;
+}
+
+.main-container .main-body .right-col {
+  width: 190px;
+  float: right;
+  margin-right: 14px;
+  border-top: 8px solid #540000;
+  background: url(../images/tv.png) no-repeat bottom;
+  padding-bottom: 180px;
+}
+
+.main-container .main-body .right-col h3{
+  font-size: 0.7em;
+}
+
+.main-container .main-body .right-col p{
+  font-size: 0.6em;
+}
+
+.main-container .main-body .right-col p a{
+  color: #540000;
+  font-style: italic;
+  text-decoration: underline;
 }
 
 .footer {
