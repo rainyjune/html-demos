@@ -1,4 +1,5 @@
 body {
+  font-size: 100%;
   background: #f5ecd4 url(../images/body-bg.png) repeat-x top left;
 }
 
@@ -8,7 +9,7 @@ ul {
   padding: 0;
 }
 
-h1, h2 {
+h1, h2, h3 {
   margin: 0;
   padding: 0;
 }
@@ -92,7 +93,7 @@ a {
 }
 
 .main-container .main-body .left-col h1{
-  font-size: 1.5em;
+  font-size: 1.875em;
 }
 
 .main-container .main-body .left-col p{
@@ -109,7 +110,7 @@ a {
 }
 
 .main-container .main-body .right-col h3{
-  font-size: 0.7em;
+  font-size: 0.875em;
 }
 
 .main-container .main-body .right-col p{
