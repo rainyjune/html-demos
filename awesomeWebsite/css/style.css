@@ -68,12 +68,13 @@ a {
 }
 
 .main-container .main-body .left-col #quick-jumps h2 {
+  font-family: "Avenir";
   background-color: #f5c843;
   color: #5f0d04;
   text-transform: uppercase;
   text-align: center;
   height: 23px;
-  font-size: 16px;
+  font-size: 0.875em;
   line-height: 23px;
 }
 
@@ -89,7 +90,8 @@ a {
   text-transform: uppercase;
   font-style: italic;
   font-weight: bold;
-  font-size: 11px;
+  font-size: 0.6875em;
+  font-family: "Helvetica Neue";
 }
 
 .main-container .main-body .left-col h1{
@@ -97,7 +99,7 @@ a {
 }
 
 .main-container .main-body .left-col p{
-  font-size: 0.6em;
+  font-size: 0.75em;
 }
 
 .main-container .main-body .right-col {
@@ -114,7 +116,7 @@ a {
 }
 
 .main-container .main-body .right-col p{
-  font-size: 0.6em;
+  font-size: 0.6875em;
 }
 
 .main-container .main-body .right-col p a{
@@ -133,6 +135,8 @@ a {
   color: white;
   text-transform: uppercase;
   text-align: center;
+  font-size: 0.625em;
+  font-family: "Avenir";
 }
 .footer p a {
   text-decoration: none;
