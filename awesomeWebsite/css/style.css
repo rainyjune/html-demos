@@ -137,7 +137,9 @@ a {
   text-transform: uppercase;
   text-align: center;
   font-size: 0.625em;
-  font-family: "Avenir";
+  font-family: "Avenir Regular";
+  margin: 0;
+  line-height: 71px;
 }
 .footer p a {
   text-decoration: none;
