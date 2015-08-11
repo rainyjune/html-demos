@@ -140,6 +140,7 @@ a {
   font-family: "Avenir Regular";
   margin: 0;
   line-height: 71px;
+  letter-spacing: 0.08em; /* 80 / 1000 = 0.08em */
 }
 .footer p a {
   text-decoration: none;
