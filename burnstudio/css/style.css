@@ -1,3 +1,7 @@
+body {
+  font-size: 100%;
+}
+
 #top {
   background-color: #4d9543;
   width: 100%;
@@ -33,6 +37,22 @@
   right: 0;
 }
 
+#header #callToAction p{
+  margin: 0;
+}
+
+#header #callToAction p:first-child {
+  color: #333;
+  letter-spacing: 0.025em; 
+  font-family: "Kozuka Gothic Pro";
+}
+
+#header #callToAction p:last-child {
+  color: #509743;
+  font-family: "Kozuka Gothic Pro";
+}
+
+  color: #333;
 #header #navigation {
   width: 100%;
   height: 50px;
