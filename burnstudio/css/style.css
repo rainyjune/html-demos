@@ -41,19 +41,27 @@ body {
   right: 0;
 }
 
-#header #callToAction p{
+#header #callToAction p {
   margin: 0;
+  letter-spacing: 0.025em; 
+  font-family: "Kozuka Gothic Pro EL";
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #header #callToAction p:first-child {
   color: #333;
-  letter-spacing: 0.025em; 
-  font-family: "Kozuka Gothic Pro";
+  font-size: 1.5em;
 }
 
 #header #callToAction p:last-child {
   color: #509743;
-  font-family: "Kozuka Gothic Pro";
+  font-size: 1.125em;
+}
+
+#header #callToAction p:last-child span {
+  font-weight: bold;
 }
 
 #header #navigation {
