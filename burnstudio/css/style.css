@@ -111,7 +111,7 @@ ul {
 #header #navigation #form {
   position: absolute;
   width: 261px;
-  right: 18px; 
+  right: 19px; 
   top: 50%;
   height: 30px;
   margin-top: -15px;
@@ -119,6 +119,11 @@ ul {
 
 #header #navigation #form form {
   height: 100%;
+  overflow: auto;
+}
+
+#header #navigation #form form input {
+  float: left;
 }
 
 #header #navigation #form form input[type=text]{
@@ -136,7 +141,8 @@ ul {
 }
 
 #header #navigation #form form .searchBtn {
-  transform: translate(10px, 5px);
+  margin-left: 20px;
+  margin-top: 6px;
 }
 
 #slideshow {
