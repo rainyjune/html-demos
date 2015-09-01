@@ -95,6 +95,11 @@ ul {
   vertical-align: middle;
   text-align: center;
   width: 119px;
+  background: url(../images/navigation-menu-delimiter.png) no-repeat;
+}
+
+#header #navigation ul {
+  background: url(../images/navigation-menu-delimiter.png) no-repeat right;
 }
 
 #header #navigation ul li a {
