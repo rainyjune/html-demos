@@ -72,6 +72,12 @@ body {
   background: url(../images/navigation-bg.png) no-repeat;
 }
 
+#header #navigation img.home {
+  position: absolute;
+  left: 19px;
+  top: 15px;
+}
+
 #header #navigation #form {
   position: absolute;
   width: 261px;
