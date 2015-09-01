@@ -2,6 +2,12 @@ body {
   font-size: 100%;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 #header {
   width: 100%;
 }
@@ -76,6 +82,25 @@ body {
   position: absolute;
   left: 19px;
   top: 15px;
+}
+
+#header #navigation ul {
+  padding-left: 56px;
+  display: table;
+  height: 100%;
+}
+
+#header #navigation ul li {
+  display: table-cell; 
+  vertical-align: middle;
+  text-align: center;
+  width: 119px;
+}
+
+#header #navigation ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 #header #navigation #form {
