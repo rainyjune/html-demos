@@ -191,15 +191,26 @@ ul {
 	background-image: url(../images/left-arrow.png);
 }
 
+.slidesjs-previous:hover,
+.slidesjs-previous:active {
+	background-image: url(../images/left-arrow-active.png);
+}
+
 .slidesjs-next {
 	right: 24px;
 	background-image: url(../images/right-arrow.png);
+}
+
+.slidesjs-next:hover,
+.slidesjs-next:active {
+	background-image: url(../images/right-arrow-active.png);
 }
 
 .slidesjs-pagination {
 	position: absolute;
 	left: 24px;
 	bottom: 23px;	
+	z-index: 10;
 }
 
 .slidesjs-pagination li {
