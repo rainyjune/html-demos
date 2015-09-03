@@ -169,6 +169,56 @@ ul {
   height: 312px;
   margin-left: auto;
   margin-right: auto;
+	
+	position: relative;
+	overflow: hidden;
+}
+
+.slidesjs-navigation {
+	position: absolute;
+	display: block;
+	width: 7px;
+	height: 13px;
+	bottom: 27px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	z-index: 10;
+	text-indent: 7px;
+}
+
+.slidesjs-previous {
+	right: 51px;
+	background-image: url(../images/left-arrow.png);
+}
+
+.slidesjs-next {
+	right: 24px;
+	background-image: url(../images/right-arrow.png);
+}
+
+.slidesjs-pagination {
+	position: absolute;
+	left: 24px;
+	bottom: 23px;	
+}
+
+.slidesjs-pagination li {
+	float: left; 
+	width: 23px;
+	height: 15px;
+}
+
+.slidesjs-pagination li a {
+	display: block;
+	overflow: hidden;
+	text-indent: 24px;
+	background: url(../images/ellipse.png) no-repeat left center;
+	height: 100%;
+	width: 100%;
+}
+
+.slidesjs-pagination li a.active {
+	background-image: url(../images/ellipse-active.png);
 }
 
 #services {
