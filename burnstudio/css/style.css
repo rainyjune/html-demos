@@ -2,6 +2,10 @@ body {
   font-size: 100%;
 }
 
+p {
+	margin: 0;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -172,6 +176,26 @@ ul {
 	
 	position: relative;
 	overflow: hidden;
+}
+
+#slideshow > div {
+	position: relative;
+}
+
+#slideshow > div .read-more {
+	position: absolute;
+	left: 540px;
+	top: 228px;
+	background: url(../images/read-more-icon.png) no-repeat left center;
+	padding-left: 14px;
+}
+
+#slideshow > div .read-more a {
+	text-decoration: none;
+	color: #509743;
+	font-size: 13px;
+	font-style: italic;
+	letter-spacing: 0.025em;
 }
 
 .slidesjs-navigation {
