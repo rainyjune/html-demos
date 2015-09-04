@@ -421,23 +421,12 @@ ul {
   margin-bottom: 25px;
 }
 
-#links {
-  width: 100%;
-  height: 318px;
-  background-color: gray;
-}
-
-#clients {
-  width: 960px;
-  height: 145px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 #footer {
   width: 100%;
-  height: 197px;
-  border-top: 1px solid #c8c8c8;
+  height: 665px;
+  border-top: 3px solid #c8c8c8;
+  background: url(../images/footer-bg.png) repeat-x;
+  box-sizing: border-box;
 }
 
 #footer .container {
