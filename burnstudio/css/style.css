@@ -2,7 +2,7 @@ body {
   font-size: 100%;
 }
 
-p, h1 {
+p, h1, h2 {
 	margin: 0;
 }
 
@@ -288,10 +288,60 @@ ul {
 #services {
   margin-top: 37px;
   width: 960px;
-  height: 238px;
-  outline: 1px dotted green;
+  height: 253px;
   margin-left: auto;
   margin-right: auto;
+  background: url(../images/service-bg.png) no-repeat;
+  box-sizing: border-box;
+  padding-top: 24px;
+  padding-left: 28px;
+  clear: both;
+}
+
+#services > div {
+  float: left;
+  min-height: 157px;
+  max-height: 253px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+#services > div h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+#services > div h2 span {
+  color: #509743;
+  font-weight; bold;
+}
+
+#services > div p {
+  width: 261px;
+  color: #555;
+  font-size: 13px;
+  line-height: 18px;
+  word-spacing: 0.025em;
+}
+
+#services > div p.read-more {
+  font-style: italic;
+  color: #509743;
+  margin-top: 20px;
+  padding-left: 17px;
+  background: url(../images/read-more-icon.png) no-repeat left center;
+}
+
+#services div.web-design {
+  width: 402px;
+  background-image: url(../images/bulb.png);
+}
+
+#services div.vector-design {
+  width: 423px;
+  margin-left: 78px;
+  background-image: url(../images/pen.png);
 }
 
 #social {
