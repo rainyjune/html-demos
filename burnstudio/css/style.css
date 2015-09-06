@@ -430,43 +430,38 @@ ul {
   clear: both;
 }
 
-#footer .container {
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 100%;
-}
-
-#footer .container .info {
-  width: 100%;
+#footer .info {
   height: 318px;
   overflow: hidden;
   clear: both;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#footer .container .info > div {
+#footer .info > div {
   box-sizing: border-box;
 }
 
-#footer .container .info .links {
+#footer .info .links {
   float: left;
   width: 225px;
   margin-top: 46px;
   height: 272px;
 }
 
-#footer .container .info .links h3 {
+#footer .info .links h3 {
   background: none !important;
   line-height: 18px !important;
   padding-left: 0 !important;
   height: 37px !important;
 }
 
-#footer .container .info .links ul li {
+#footer .info .links ul li {
   background: url(../images/links-arrow.png) no-repeat 8px center;
 }
 
-#footer .container .info .links ul li a {
+#footer .info .links ul li a {
   color: #ccc;
   font-size: 13px;
   line-height: 30px;
@@ -478,12 +473,12 @@ ul {
   height: 30px;
 }
 
-#footer .container .info .links ul li a:hover,
-#footer .container .info .links ul li a:active {
+#footer .info .links ul li a:hover,
+#footer .info .links ul li a:active {
   background: url(../images/gray-bg.png) no-repeat;
 }
 
-#footer .container .info .blog {
+#footer .info .blog {
   width: 293px;
   float: left;
   margin-left: 77px;
@@ -493,7 +488,7 @@ ul {
   position: relative;
 }
 
-#footer .container .info .blog .content {
+#footer .info .blog .content {
   position: absolute;
   right: 0; 
   top: 83px;
@@ -506,11 +501,11 @@ ul {
   color: #fff;
 }
 
-#footer .container .info .blog .content p {
+#footer .info .blog .content p {
   margin-left: 20px;
 }
 
-#footer .container .info .blog .content p.date {
+#footer .info .blog .content p.date {
   font-size: 11px;
   font-family: "Helvetica Neue LT Com";
   color: #ccc;
@@ -519,7 +514,7 @@ ul {
   font-style: italic;
 }
 
-#footer .container .info .blog .content p.more {
+#footer .info .blog .content p.more {
   background: url(../images/more-white.png) no-repeat left center;
   font-size: 13px;
   line-height: 18px;
@@ -529,12 +524,12 @@ ul {
   margin-top: 28px;
 }
 
-#footer .container .info .blog .content p.more a {
+#footer .info .blog .content p.more a {
   text-decoration: none;
   color: #fff;
 }
 
-#footer .container .info .location {
+#footer .info .location {
   float: right;
   width: 292px;
   background: url(../images/map-bg.png) no-repeat 23px 44px;
@@ -543,9 +538,9 @@ ul {
   margin-top: 46px;
 }
 
-#footer .container .info .links h3 ,
-#footer .container .info .blog h3 ,
-#footer .container .info .location h3 {
+#footer .info .links h3 ,
+#footer .info .blog h3 ,
+#footer .info .location h3 {
   background: url(../images/location-bg.png) no-repeat;
   height: 58px;
   line-height: 58px;
@@ -557,7 +552,7 @@ ul {
   font-weight: lighter;
 }
 
-#footer .container .info .location .address {
+#footer .info .location .address {
   position: absolute;
   right: 2px;
   top: 170px;
@@ -570,7 +565,7 @@ ul {
   display: table;
 }
 
-#footer .container .info .location .address p {
+#footer .info .location .address p {
   display: table-cell;
   vertical-align: middle;
   color: #ccc;
@@ -579,3 +574,31 @@ ul {
   word-spacing: 0.025em;
   font-family: "Helvetica Neue LT Com";
 }
+
+#footer .partners {
+  width: 960px;
+  height: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  overflow: hidden; 
+} 
+
+#footer .partners ul {
+  display: table; 
+  height: 100%;
+  width: 100%;
+}
+
+#footer .partners ul li {
+  display: table-cell; 
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+#footer hr { margin: 0;
+  border: none;
+  border-top: 1px solid #c8c8c8;
+}
+
