@@ -428,6 +428,7 @@ ul {
   background: url(../images/footer-bg.png) repeat-x;
   box-sizing: border-box;
   clear: both;
+  position: relative;
 }
 
 #footer .info {
@@ -597,8 +598,68 @@ ul {
 }
 
 
-#footer hr { margin: 0;
+#footer hr { 
+  margin: 0;
   border: none;
   border-top: 1px solid #c8c8c8;
 }
 
+#footer .foot {
+  width: 960px;
+  min-height: 65px;
+  box-sizing: border-box;
+  padding-top: 29px;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer .foot .copy {
+  float: left;
+  font-family: "Helvetica Neue LT Com";
+  font-size: 12px;
+  line-height: 24px;
+  word-spacing: 0.025em;
+  color: #666;
+}
+#footer .foot .copy a {
+  color: #509743;
+  text-decoration: none;
+}
+
+#footer .foot ul {
+  float: right;
+  width: 374px;
+  display: table;
+}
+
+#footer .foot ul li {
+  display: table-cell;
+  text-align: center;
+  box-sizing: border-box;
+  height: 22px;
+}
+
+#footer .foot ul li a {
+  text-decoration: none;
+  height: 100%;
+  font-family: "Helvetica Neue LT Com";
+  font-size: 12px;
+  line-height: 24px;
+  word-spacing: 0.025em;
+  color: #666;
+}
+
+#footer .foot ul li a:hover,
+#footer .foot ul li a:active {
+  border-bottom: 2px solid #c8c8c8;
+}
+
+#footer .top {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 54px;
+  left: 50%;
+  margin-left: -15px;
+}
