@@ -1,5 +1,11 @@
 @import 'normalize';
 
+$font-color-gray0: #333;
+$font-color-gray1: #555;
+$font-color-gray2: #ccc;
+$font-color-green: #509743;
+$font-color-footer: #666;
+
 body {
   font-size: 100%;
 }
@@ -81,12 +87,12 @@ ul {
 }
 
 #header #callToAction p:first-child {
-  color: #333;
+  color: $font-color-gray0;
   font-size: 1.5em;
 }
 
 #header #callToAction p:last-child {
-  color: #509743;
+  color: $font-color-green;
   font-size: 1.125em;
 }
 
@@ -222,7 +228,7 @@ ul {
 
 #slideshow > div .read-more a {
 	text-decoration: none;
-	color: #509743;
+	color: $font-color-green;
 	font-size: 13px;
 	font-style: italic;
 	letter-spacing: 0.025em;
@@ -311,17 +317,17 @@ ul {
 
 #services > div h2 {
   font-size: 24px;
-  color: #333;
+  color: $font-color-gray0;
 }
 
 #services > div h2 span {
-  color: #509743;
+	color: $font-color-green;
   font-weight: bold;
 }
 
 #services > div p {
   width: 261px;
-  color: #555;
+  color: $font-color-gray1;
   font-size: 13px;
   line-height: 18px;
   word-spacing: 0.025em;
@@ -329,7 +335,7 @@ ul {
 
 #services > div p.read-more {
   font-style: italic;
-  color: #509743;
+	color: $font-color-green;
   margin-top: 20px;
   padding-left: 17px;
   background: url(../images/read-more-icon.png) no-repeat left center;
@@ -364,11 +370,11 @@ ul {
 #social h3 {
   font-size: 18px;
   line-height: 18px;
-  color: #333;
+  color: $font-color-gray0;
 }
 
 #social h3 strong {
-  color: #509743;
+	color: $font-color-green;
 }
 
 #social .video {
@@ -400,7 +406,7 @@ ul {
 
 #social .twitter .tweet p {
   font-size: 13px;
-  color: #555;
+  color: $font-color-gray1;
   line-height: 18px;
   word-spacing: 0.025em;
   padding-left: 20px;
@@ -465,7 +471,7 @@ ul {
 }
 
 #footer .info .links ul li a {
-  color: #ccc;
+  color: $font-color-gray2;
   font-size: 13px;
   line-height: 30px;
   word-spacing: 0.025em;
@@ -511,7 +517,7 @@ ul {
 #footer .info .blog .content p.date {
   font-size: 11px;
   font-family: "Helvetica Neue LT Com";
-  color: #ccc;
+  color: $font-color-gray2;
   line-height: 18px;
   margin-top: 14px;
   font-style: italic;
@@ -571,7 +577,7 @@ ul {
 #footer .info .location .address p {
   display: table-cell;
   vertical-align: middle;
-  color: #ccc;
+  color: $font-color-gray2;
   font-size: 13px;
   line-height: 18px;
   word-spacing: 0.025em;
@@ -622,10 +628,10 @@ ul {
   font-size: 12px;
   line-height: 24px;
   word-spacing: 0.025em;
-  color: #666;
+  color: $font-color-footer;
 }
 #footer .foot .copy a {
-  color: #509743;
+	color: $font-color-green;
   text-decoration: none;
 }
 
@@ -649,7 +655,7 @@ ul {
   font-size: 12px;
   line-height: 24px;
   word-spacing: 0.025em;
-  color: #666;
+  color: $font-color-footer;
 }
 
 #footer .foot ul li a:hover,
