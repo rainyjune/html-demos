@@ -6,6 +6,8 @@ $font-color-gray2: #ccc;
 $font-color-green: #509743;
 $font-color-footer: #666;
 
+$container-width: 960px;
+
 body {
   font-size: 100%;
 }
@@ -44,7 +46,7 @@ ul {
 }
 
 #header .container {
-  width: 960px;
+  width: $container-width;
   height: 209px;
   margin-left: auto;
   margin-right: auto;
@@ -172,7 +174,7 @@ ul {
 
 #slideshow {
   margin-top: 40px;
-  width: 960px;
+  width: $container-width;
   height: 312px;
   margin-left: auto;
   margin-right: auto;
@@ -290,7 +292,7 @@ ul {
 
 #services {
   margin-top: 37px;
-  width: 960px;
+  width: $container-width;
   height: 253px;
   margin-left: auto;
   margin-right: auto;
@@ -348,7 +350,7 @@ ul {
 }
 
 #social {
-  width: 960px;
+  width: $container-width;
   height: 221px;
   margin-left: auto;
   margin-right: auto;
@@ -438,7 +440,7 @@ ul {
   height: 318px;
   overflow: hidden;
   clear: both;
-  width: 960px;
+  width: $container-width;
   margin-left: auto;
   margin-right: auto;
 }
@@ -580,7 +582,7 @@ ul {
 }
 
 #footer .partners {
-  width: 960px;
+  width: $container-width;
   height: 110px;
   margin-left: auto;
   margin-right: auto;
@@ -608,7 +610,7 @@ ul {
 }
 
 #footer .foot {
-  width: 960px;
+  width: $container-width;
   min-height: 65px;
   box-sizing: border-box;
   padding-top: 29px;
