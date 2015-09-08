@@ -356,6 +356,7 @@ ul {
   @extend .center;
   margin-top: 28px;
   margin-bottom: 45px;
+  word-spacing: 0.025em;
 
   > div {
     float: left;
@@ -367,6 +368,8 @@ ul {
     font-size: 18px;
     line-height: 18px;
     color: $font-color-gray0;
+    font-family: "Kozuka Gothic Pro";
+    font-weight: lighter;
 
     strong {
       color: $font-color-green;
@@ -376,6 +379,21 @@ ul {
   .video {
     width: 302px;
     background: url(../images/video-bg.png) no-repeat;
+    text-align: center;
+    color: white;
+    font-family: "Kozuka Gothic Pro";
+
+    h3,
+    h3 strong {
+      color: white;
+      margin-top: 20px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 18px;
+      font-weight: lighter;
+    }
 
     img {
       position: absolute;
