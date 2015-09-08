@@ -447,6 +447,22 @@ ul {
       box-sizing: border-box;
     }
 
+    h3 {
+      color: white;
+      font-size: 18px;
+      word-spacing: 0.025em;
+      font-family: "Kozuka Gothic Pro";
+      font-weight: lighter;
+    }
+
+    .blog h3,
+    .location h3 {
+      background: url(../images/location-bg.png) no-repeat;
+      height: 58px;
+      line-height: 58px;
+      padding-left: 31px;
+    }
+
     .links {
       float: left;
       width: 225px;
@@ -454,10 +470,9 @@ ul {
       height: 272px;
 
       h3 {
-        background: none !important;
-        line-height: 18px !important;
-        padding-left: 0 !important;
-        height: 37px !important;
+        line-height: 18px;
+        padding-left: 0;
+        height: 37px;
       }
 
       ul li {
@@ -654,16 +669,3 @@ ul {
 
 }
 
-#footer .info .links h3 ,
-#footer .info .blog h3 ,
-#footer .info .location h3 {
-  background: url(../images/location-bg.png) no-repeat;
-  height: 58px;
-  line-height: 58px;
-  padding-left: 31px;
-  color: white;
-  font-size: 18px;
-  word-spacing: 0.025em;
-  font-family: "Kozuka Gothic Pro";
-  font-weight: lighter;
-}
