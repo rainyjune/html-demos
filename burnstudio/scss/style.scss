@@ -304,7 +304,8 @@ ul {
   padding-left: 28px;
   clear: both;
 
-  > div {
+  div.web-design,
+  div.vector-design {
     float: left;
     min-height: 157px;
     max-height: 253px;
@@ -358,7 +359,9 @@ ul {
   margin-bottom: 45px;
   word-spacing: 0.025em;
 
-  > div {
+  .video,
+  .twitter,
+  .facebook {
     float: left;
     height: 100%;
     position: relative;
@@ -614,19 +617,10 @@ ul {
     margin-top: 35px;
     overflow: hidden; 
 
-    ul {
-      display: table; 
-      height: 100%;
+    table {
       width: 100%;
-
-      li {
-        display: table-cell; 
-        vertical-align: middle;
-        text-align: center;
-      }
-
+      height: 100%;
     }
-
   } 
 
 
@@ -652,29 +646,25 @@ ul {
       }
 
     }
-    ul {
-      float: right;
-      width: 374px;
-      display: table;
-      li {
-        display: table-cell;
-        text-align: center;
-        box-sizing: border-box;
-        height: 22px;
 
-        a {
-          text-decoration: none;
-          height: 100%;
-          font-family: "Helvetica Neue LT Com";
-          font-size: 12px;
-          line-height: 24px;
-          word-spacing: 0.025em;
-          color: $font-color-footer;
-        }
-        a:active,
-        a:hover {
-          border-bottom: 2px solid #c8c8c8;
-        }
+    table {
+      width: 374px;
+      height: 22px;
+      float: right;
+      text-align: center;
+
+      a {
+        text-decoration: none;
+        height: 100%;
+        font-family: "Helvetica Neue LT Com";
+        font-size: 12px;
+        line-height: 24px;
+        word-spacing: 0.025em;
+        color: $font-color-footer;
+      }
+      a:active,
+      a:hover {
+        border-bottom: 2px solid #c8c8c8;
       }
     }
   }
