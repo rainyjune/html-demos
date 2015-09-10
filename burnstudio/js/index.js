@@ -11,4 +11,8 @@ $(function(){
 			effect: 'slide'
 		}
 	});
+  $(".top").on("click", "a", function(e){
+    window.scrollTo(0, 0);
+    return false;
+  });
 });
