@@ -114,16 +114,14 @@ ul {
       top: 15px;
     }
 
-    ul {
-      padding-left: 56px;
-      display: table;
+    table {
+      margin-left: 56px;
       height: 100%;
       background: url(../images/navigation-menu-delimiter.png) no-repeat right;
+      vertical-align: middle;
+      text-align: center;
 
-      li {
-        display: table-cell; 
-        vertical-align: middle;
-        text-align: center;
+      td {
         width: 119px;
         background: url(../images/navigation-menu-delimiter.png) no-repeat;
 
@@ -133,7 +131,6 @@ ul {
           text-transform: capitalize;
         }
       }
-
     }
     #form {
       position: absolute;
