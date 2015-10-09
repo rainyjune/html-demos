@@ -1,0 +1,95 @@
+/**
+ * Normalize.
+ */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Page */
+body {
+  background: url(../images/body-bg.jpg) repeat;
+}
+
+#wrap {
+  width: 781px;
+  min-height: 536px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#head {
+  width: 494px;
+  height: 122px;
+  margin-left: 2px;
+  outline: 1px solid red;
+  background: url(../images/logo.png) no-repeat ;
+
+  color: #303030;
+
+  h1 {
+    font-family: "Helvetica Neue";
+    text-align: center;
+    font-weight: bold;
+    span {
+      font-family: "Helvetica Neue UltraLight";
+    }
+  }
+
+}
+
+#navigation {
+  height: 54px;
+
+  li {
+    float: left;
+    background-repeat: no-repeat;
+
+    a {
+      text-decoration: none;
+      display: block;
+      height: 54px;
+      line-height: 54px;
+      width: 170px;
+      text-align: center;
+      text-indent: -99999px;
+    }
+  }
+
+  li.articles {
+    background-image: url(../images/articles.jpg);
+  }
+  li.videos {
+    background-image: url(../images/videos.jpg);
+  }
+  li.downloads {
+    background-image: url(../images/downloads.jpg);
+  }
+
+  li:hover {
+    background-position: center center;
+  }
+}
+
+#maincontent {
+  width: 646px;
+  min-height: 247px;
+  outline: 1px dotted yellow;
+  background: url(../images/ry_02.png) repeat-y;
+}
+
+#footer {
+  width: 568px;
+  height: 102px;
+  outline: 1px dotted aqua;
+}
