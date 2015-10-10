@@ -4,8 +4,19 @@
 }
 
 #maincontent {
+  .top {
+    height: 26px;
+    background: url(../images/maincontent-top.png) no-repeat;
+  }
   .body {
     _height: 247px;
+  }
+  .container {
+    background: url(../images/ry_02.png) repeat-y;
+  }
+  .bottom {
+    height: 16px;
+    background: url(../images/maincontent-bottom.png) no-repeat;
   }
 }
 
