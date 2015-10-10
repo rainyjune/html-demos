@@ -78,6 +78,9 @@ body {
   padding-left: 13px;
   padding-right: 31px;
 
+  position: relative;
+  top: -12px;
+
   .container {
     width: 563px;
     min-height: 190px;
@@ -162,6 +165,7 @@ body {
   background: url(../images/footer-bg.png) no-repeat;
   margin-left: 40px;
   position: relative;
+  top: -12px;
 
   p {
     margin: 0;
