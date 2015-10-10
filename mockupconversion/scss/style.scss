@@ -63,8 +63,9 @@ body {
 }
 
 #maincontent {
-  width: 607px;
-  height: 207px;
+  overflow: auto;
+  width: 563px;
+  min-height: 207px;
   background-color: white;
   margin-left: 23px;
   border-radius: 18px;
@@ -72,6 +73,47 @@ body {
   background-image: -webkit-linear-gradient( -90deg, rgb(217,217,217) 0%, rgb(255,255,255) 100%);
   background-image: -ms-linear-gradient( -90deg, rgb(217,217,217) 0%, rgb(255,255,255) 100%);
   box-shadow: 0px 5px 21px 0px rgba(0, 0, 0, 0.75);
+
+  padding-top: 17px;
+  padding-left: 13px;
+  padding-right: 31px;
+
+  .container {
+    width: 563px;
+    min-height: 190px;
+
+    #mainBlock {
+      width: 442px;
+      min-height: 100px;
+      float: left;
+      padding-left: 4px;
+      padding-right: 9px;
+      padding-top: 5px;
+
+      h1 {
+        font-size: 18px;
+        color: #cea433;
+      }
+
+      p.meta {
+        background-color: #fff9a7;
+      }
+
+      p {
+        color: #736355;
+        font-size: 12px;
+
+        a {
+          color: #2a8cd2;
+        }
+      }
+    }
+
+    #sidebar {
+      float: right;
+      margin-top: 6px;
+    }
+  }
 
 
   .MAIN_CONTENT {
@@ -81,6 +123,32 @@ body {
                           z-index: 42;
   }
 
+  .Mock_Content {
+      position: absolute;
+        left: 0px;
+          top: 0px;
+            width: 781px;
+              height: 536px;
+                z-index: 60;
+  }
+  .Layer_10 {
+      background-image: url("Layer 10.png");
+        position: absolute;
+          left: 507px;
+            top: 179px;
+              width: 92px;
+                height: 93px;
+                  z-index: 59;
+  }
+  .Layer_9 {
+      background-image: url("Layer 9.png");
+        position: absolute;
+          left: 36px;
+            top: 173px;
+              width: 455px;
+                height: 164px;
+                  z-index: 58;
+  }
 
   /*
   .top {
