@@ -64,18 +64,36 @@ body {
 
 #maincontent {
   width: 646px;
-  min-height: 247px;
   outline: 1px dotted yellow;
   background: url(../images/ry_02.png) repeat-y;
+
+  .top {
+    height: 26px;
+    background: url(../images/maincontent-top.png) no-repeat;
+  }
+
+  .body {
+    min-height: 247px;
+  }
+
+  .bottom {
+    height: 16px;
+    background: url(../images/maincontent-bottom.png) no-repeat;
+  }
 }
 
 #footer {
   width: 568px;
   height: 102px;
-  outline: 1px dotted aqua;
+  background: url(../images/footer-bg.png) repeat-x;
+  margin-left: 40px;
 }
 /* Debug */
 
 #head {
   outline: 1px solid red;
+}
+
+#footer {
+  outline: 1px dotted aqua;
 }
