@@ -177,6 +177,24 @@ body {
   height: 102px;
   background: url(../images/footer-bg.png) no-repeat;
   margin-left: 40px;
+  position: relative;
+
+  p {
+    margin: 0;
+    font-size: 12px;
+    font-family: "Avenir";
+    color: rgb(42, 42, 42);
+    text-transform: uppercase;
+    line-height: 1.633;
+    text-align: left;
+    -moz-transform: scale(0.99, 1);
+    -webkit-transform: scale(0.99, 1);
+    -ms-transform: scale(0.99, 1);
+    position: absolute;
+    left: 10px;
+    top: 14px;
+    font-weight: bold;
+  }
 }
 /* Debug */
 
