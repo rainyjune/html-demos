@@ -64,7 +64,6 @@ body {
 
 #maincontent {
   width: 646px;
-  outline: 1px dotted yellow;
   background: url(../images/ry_02.png) repeat-y;
 
   .top {
@@ -85,15 +84,21 @@ body {
 #footer {
   width: 568px;
   height: 102px;
-  background: url(../images/footer-bg.png) repeat-x;
+  background: url(../images/footer-bg.png) no-repeat;
   margin-left: 40px;
 }
 /* Debug */
 
+/*
 #head {
   outline: 1px solid red;
+}
+
+#maincontent {
+  outline: 1px dotted yellow;
 }
 
 #footer {
   outline: 1px dotted aqua;
 }
+*/
