@@ -64,7 +64,6 @@ body {
 
 #maincontent {
   width: 646px;
-  background: url(../images/ry_02.png) repeat-y;
 
   .top {
     height: 26px;
@@ -73,6 +72,7 @@ body {
 
   .body {
     min-height: 247px;
+    background: url(../images/ry_02.png) repeat-y;
   }
 
   .bottom {
