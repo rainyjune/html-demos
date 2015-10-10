@@ -8,3 +8,8 @@
     _height: 247px;
   }
 }
+
+#footer {
+  background-image: none;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/footer-bg.png', sizingMethod='scale');
+}
