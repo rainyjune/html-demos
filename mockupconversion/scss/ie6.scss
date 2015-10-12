@@ -41,6 +41,17 @@
 }
 
 #footer {
+  width: 649px;
+  height: 107px;
+  margin: 0;
+  top: -15px;
   background-image: none;
+  /*
   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/footer-bg.png', sizingMethod='scale');
+  */
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/footer-bg-long-01.png', sizingMethod='scale');
+
+  p {
+    left: 50px; 
+  }
 }
