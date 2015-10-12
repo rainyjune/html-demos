@@ -18,6 +18,21 @@
   }
   .container {
     background: url(../images/ry_02.png) repeat-y;
+    width: 100%;
+    /*
+    padding-left: 36px;
+    */
+
+    #mainBlock {
+      margin-left: 36px;
+      display: inline;
+    }
+
+    #sidebar {
+      margin-right: 31px;
+      display: inline;
+    }
+
   }
   .bottom {
     height: 16px;
