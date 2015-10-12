@@ -1,7 +1,10 @@
 #head {
+  border: 1px solid blue;
+  width: 779px;
   background-image: none;
   background-position-x: 0;
-  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/logo-small.png', sizingMethod='image');
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/logo-small.png', sizingMethod='crop');
+
 }
 
 #maincontent {
