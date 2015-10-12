@@ -28,6 +28,13 @@ body {
   margin-right: auto;
 }
 
+#head {
+  height: 117px;
+  background: url(../images/logo-small.png) no-repeat;
+  background-position-x: 2px;
+}
+
+
 #navigation {
   clear: both;
   height: 48px;
@@ -186,11 +193,11 @@ body {
 }
 /* Debug */
 
-/*
 #head {
   outline: 1px solid red;
 }
 
+/*
 #maincontent {
   outline: 1px dotted yellow;
 }

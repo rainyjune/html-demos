@@ -1,6 +1,7 @@
 #head {
   background-image: none;
-  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/logo.png', sizingMethod='scale');
+  background-position-x: 0;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/logo-small.png', sizingMethod='image');
 }
 
 #maincontent {
