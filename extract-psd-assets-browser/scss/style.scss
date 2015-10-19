@@ -130,9 +130,6 @@ body {
   }
 }
 
-.width806.wrap {
-  display: block;
-}
 
 .width806.wrap {
   width: 806px;
@@ -250,5 +247,17 @@ body {
       }
     }
 
+  }
+}
+
+@media (max-width: 800px) {
+  .width480.wrap {
+    display: block;
+  }
+}
+
+@media (min-width: 800px) {
+  .width806.wrap {
+    display: block;
   }
 }
