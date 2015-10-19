@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* 480px */
+
+body {
+  background-color: black;
+}
+
+.wrap {
+  background-color: rgb(26, 26, 26);
+  width: 503px;
+  z-index: 55;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 21px;
+
+  .row1 {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    .topImage {
+      width: 100%;
+      height: 480px;
+    }
+
+    .callToAction1 {
+      width: 100%;
+      height: 280px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 13px;
+      margin-bottom: 14px;
+    }
+
+    .smallImage {
+      width: 100%;
+      height: 233px;
+    }
+  }
+
+  .row2 {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .callToAction {
+      width: 100%;
+      height: 246px;
+    }
+
+    .bottomImg {
+      width: 100%;
+      height: 481px;
+      margin-top: 17px;
+    }
+  }
+}
+
