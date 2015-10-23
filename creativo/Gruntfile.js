@@ -10,7 +10,7 @@ module.exports = function(grunt) {
         },
         files: {
           'css/style.css': 'scss/style.scss',
-          'css/ie6.css': 'scss/ie6.scss'
+          'css/ie.css': 'scss/ie.scss'
         }
       }
     },
