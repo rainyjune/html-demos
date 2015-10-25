@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  /*
-  background-color: #59d3fa;
-  */
+  background: #59d3fa url(../images/web2-mockup-psd.png) repeat-x;
 }
 
 h1 {
@@ -14,11 +12,9 @@ h1 {
   width: 1200px;
   height: 1050px;
   padding-top: 100px;
-  /*
   margin-left: auto;
   margin-right: auto;
-  */
-  background: url(../images/web2-mockup-psd.png) no-repeat;
+  
   z-index: 1;
     
   .header {
