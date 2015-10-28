@@ -9,8 +9,7 @@ module.exports = function(grunt) {
           noCache: true  
         },
         files: {
-          'css/style.css': 'scss/style.scss',
-          'css/ie.css': 'scss/ie.scss'
+          'css/style.css': 'scss/style.scss'
         }
       }
     },
