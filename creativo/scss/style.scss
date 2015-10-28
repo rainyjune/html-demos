@@ -111,3 +111,14 @@ p {
 
   }
 }
+
+html.lt-ie7 {
+  #canvas {
+    .footer {
+      p.phone {
+        background: none;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/phone.png', sizingMethod='crop');
+      }
+    }
+  }
+}
