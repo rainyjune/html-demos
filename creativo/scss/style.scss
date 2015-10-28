@@ -7,6 +7,10 @@ h1 {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 #canvas {
   box-sizing: border-box;
   width: 1200px;
@@ -73,11 +77,37 @@ h1 {
   }
   
   .footer {
-    width: 926px;
+    box-sizing: border-box;
+    width: 925px;
     height: 48px;
-    margin-left: 134px;
-    margin-right: 142px;
-    background-color: pink;
-    background: url(../images/footer-border.png) top left no-repeat;
+    margin-left: 132px;
+    border-top: 1px dashed #3495b4;
+    position: relative;
+
+    p.copyright {
+      font-size: 14px;
+      line-height: 18px;
+      font-family: "Helvetica";
+      color: #0c3b4a;
+      width: 290px;
+      height: 34px;
+      margin-top: 11px;
+      text-align: left;
+    }
+
+    p.phone {
+      background: url(../images/phone.png) no-repeat;
+      font-size: 21px;
+      line-height: 1.2;
+      font-family: "Arial Rounded MT Bold", Arial;
+      text-transform: uppercase;
+      color: white;
+      text-align: left;
+      position: absolute;
+      right: 4px;
+      top: 13px;
+      padding-left: 32px;
+    }
+
   }
 }
