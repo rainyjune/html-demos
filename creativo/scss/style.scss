@@ -76,21 +76,64 @@ p {
       width: 309px;
       height: 183px;
       float: left;
+      background: url(../images/box_bg.jpg) no-repeat;
 
-      a {
-        border: none;
+      .container {
+        background-position: 16px 42px;
+        background-repeat: no-repeat;
+        padding-top: 28px;
+        height: 155px;
 
-        img {
-          border: none;
+        div.text {
+          width: 167px;
+          height: 100%;
+          margin-left: 125px;
+          zoom: 1;
+          h2 {
+            font-size: 24px;
+            font-family: "Rockwell";
+            color: #0f83bc;
+            font-weight: bold;
+            text-transform: uppercase;
+            line-height: 1.2;
+            text-align: left;
+          }
+
+          p {
+            font-size: 14px;
+            font-family: "Helvetica";
+            color: rgb(12, 59, 74);
+            line-height: 1.286;
+            text-align: left;
+            width: 157px;
+            padding-left: 1px;
+          }
+
         }
       }
     }
 
-    div.box1 {
+    div.client {
+      .container {
+        background-image: url(../images/globe_icon.png);
+      }
+    }
+    div.work {
+      .container {
+        background-image: url(../images/canvas_icon.png);
+      }
+    }
+    div.book {
+      .container {
+        background-image: url(../images/calendar_icon.png);
+      }
+    }
+
+    div.client {
       margin-right: 11px;
     }
 
-    div.box3 {
+    div.book {
       float: right;
     }
   }
@@ -217,6 +260,46 @@ p {
 
 html.lt-ie7 {
   #canvas {
+    .boxes {
+      div.box {
+        .container {
+          background-image: none;
+          position: relative;
+          
+          div.icon {
+            position: absolute;
+            width: 110px;
+            height: 116px;
+            left: 16px;
+            top: 42px;
+
+          }
+        }
+      }
+      div.client {
+        .container {
+          div.icon {
+            filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/globe_icon.png', sizingMethod='crop');
+          }
+        }
+      }
+      div.work {
+        .container {
+          div.icon {
+            filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/canvas_icon.png', sizingMethod='crop');
+          }
+        }
+      }
+      div.book {
+        .container {
+          div.icon {
+            filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/calendar_icon.png', sizingMethod='crop');
+          }
+        }
+      }
+      
+    }
+
     .more {
       .newsletter {
         form {
