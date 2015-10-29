@@ -1,3 +1,10 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
 body {
   margin: 0;
   background: #59d3fa url(../images/web2-mockup-psd.png) repeat-x;
@@ -80,7 +87,8 @@ p {
       height: 109px;
       float: right;
       background-color: #17b4e6;
-      border-radius: 16px;
+      margin-bottom: 51px;
+      @include border-radius(16px);
 
       p {
         font-family: "Helvetica";
