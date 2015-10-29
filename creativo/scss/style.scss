@@ -68,10 +68,31 @@ p {
   .boxes {
     width: 948px;
     height: 183px; 
-    background-color: green;
     margin-left: auto;
     margin-right: auto;
     margin-top: 38px;
+
+    div.box {
+      width: 309px;
+      height: 183px;
+      float: left;
+
+      a {
+        border: none;
+
+        img {
+          border: none;
+        }
+      }
+    }
+
+    div.box1 {
+      margin-right: 11px;
+    }
+
+    div.box3 {
+      float: right;
+    }
   }
   
   .more {
