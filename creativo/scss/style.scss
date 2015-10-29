@@ -192,3 +192,14 @@ html.lt-ie7 {
     }
   }
 }
+
+html.lt-ie9 {
+  #canvas {
+    .more {
+      .newsletter {
+        background-color: transparent;
+        background: url(../images/newsletter_bg.jpg) no-repeat;
+      }
+    }
+  }
+}
