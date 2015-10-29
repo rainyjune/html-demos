@@ -10,7 +10,7 @@ body {
   background: #59d3fa url(../images/web2-mockup-psd.png) repeat-x;
 }
 
-h1 {
+h1, h2 {
   margin: 0;
 }
 
@@ -75,11 +75,33 @@ p {
   }
   
   .more {
-    width: 937px;
+    width: 940px;
     min-height: 160px;
-    margin-left: 130px;
-    margin-right: 133px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 21px;
+
+    div.text {
+      width: 621px;
+      float: left;
+
+      h2 {
+        font-size: 21px;
+        font-family: "Verdana";
+        color: rgb(9, 78, 100);
+        font-weight: bold;
+        text-align: left;
+        line-height: 1.2;
+      }
+
+      p {
+        margin-top: 15px;
+        font-size: 14px;
+        font-family: "Helvetica";
+        color: rgb(9, 92, 119);
+        line-height: 1.786;
+      }
+    }
 
     .newsletter {
       position: relative;
