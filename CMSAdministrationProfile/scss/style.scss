@@ -1,3 +1,50 @@
 @import 'normalize';
 
+$bodybgcolor : #cecedc; 
+$leftnavbgcolor : #3c3c40;
+
+body {
+  background-color: $bodybgcolor;  
+}
+
+#container {
+  width: 1260px;
+  margin-top: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+
+  #leftNavigation {
+    width: 236px;
+    float: left;
+    background-color: $leftnavbgcolor;
+    min-height: 300px;
+  }
+
+  #mainContainer {
+    margin-left: 236px;
+    min-height: 500px;
+    background: red;
+
+    #header {
+      box-sizing: border-box;
+      height: 76px;
+      background: green;
+    }
+
+    #leftSide {
+      float: left;
+      width: 485px;
+      min-height: 100px;
+      background-color: blue;
+    }
+
+    #rightSide {
+      float: left;
+      width: 539px;
+      min-height: 200px;
+      background: aqua;
+    }
+  }
+}
 
