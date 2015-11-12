@@ -264,7 +264,7 @@ body {
           .stars {
             position: absolute;
             left: 137px;
-            top: 20px;
+            top: 19px;
           }
 
           .avatar {
@@ -277,7 +277,7 @@ body {
           .profile {
             position: absolute;
             left: 135px;
-            top: 53px;
+            top: 47px;
 
             .name {
               font-size: 16px;
@@ -288,6 +288,7 @@ body {
               text-align: left;
             }
             .email {
+              margin-top: 3px;
               font-size: 12px;
               font-family: "Droid Sans";
               color: rgb(102, 102, 109);
@@ -388,6 +389,10 @@ body {
               position: absolute;
               left: 0;
               top: 45px;
+
+              img {
+                margin-left: 1px;
+              }
 
               a {
                 font-size: 12px;
