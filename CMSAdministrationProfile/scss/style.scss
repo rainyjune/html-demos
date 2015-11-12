@@ -429,8 +429,6 @@ body {
                   font-weight: normal;
                   color: rgb(102, 102, 109);
                   line-height: 16px;
-
-
                 }
 
                 td {
@@ -456,6 +454,21 @@ body {
                   font-weight: bold;
                   font-family: "Droid Sans";
                 }
+              }
+
+              tr:nth-child(1) {
+                th {
+                  vertical-align: top;
+                  padding-top: 10px;
+                }
+                td {
+                  vertical-align: top;
+                }
+
+              }
+
+              tr:last-child {
+                vertical-align: bottom;
               }
 
             }
