@@ -1,7 +1,29 @@
 @import 'normalize';
 
+/* Reset */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p, h2, input {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+/* Page */
+
 $bodybgcolor : #cecedc; 
 $leftnavbgcolor : #3c3c40;
+$leftnavcategorytitlebgcolor: #a8bea1;
+$headerbgcolor: #e8e8f0;
+$headerbordercolor: #cecedc;
 
 body {
   background-color: $bodybgcolor;  
@@ -13,37 +35,334 @@ body {
   margin-left: auto;
   margin-right: auto;
   overflow: auto;
+  box-sizing: border-box;
+  height: 100%;
 
   #leftNavigation {
     width: 236px;
     float: left;
     background-color: $leftnavbgcolor;
     min-height: 300px;
+    position: relative;
+
+    div.top {
+      width: 72px;
+      height: 74px;
+      background: $leftnavbgcolor;
+      position: absolute;
+      top: 0;
+      right: -72px;
+
+      img {
+        position: absolute;
+        top: 26px;
+        left: 22px;
+      }
+    }
+    
+    form {
+      margin-top: 23px;
+      margin-left: 30px;
+      width: 179px;
+      height: 31px;
+      overflow: hidden;
+
+      input[type=text] {
+        padding: 0;
+        border: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 2px;
+        background-color: rgb(92, 92, 94);
+        box-sizing: border-box;
+        padding-left: 12px;
+        /* TODO */
+        /* Place holder text style */
+      }
+    }
+
+    >ul {
+      li {
+        font-size: 12px;
+        color: $leftnavcategorytitlebgcolor;
+
+        h2 {
+          padding-left: 30px;
+        }
+
+        ul li {
+          color: white;
+          box-sizing: border-box;
+          padding-left: 30px;
+        }
+
+        ul li.active {
+          background: rgb(92, 92, 94) url(../images/orangebar.png) left center no-repeat;
+        }
+      }
+    }
   }
 
   #mainContainer {
     margin-left: 236px;
     min-height: 500px;
-    background: red;
+    overflow: auto;
 
     #header {
       box-sizing: border-box;
       height: 76px;
-      background: green;
+      background: $headerbgcolor;
+      border-bottom: 2px solid $headerbordercolor;
+      padding-top: 23px;
+      padding-left: 113px;
+
+      .content {
+        box-sizing: border-box;
+        width: 543px;
+        height: 31px;
+
+        a {
+          text-decoration: none;
+          text-align: center;
+          line-height: 31px;
+          display: block;
+          font-size: 14px;
+          font-family: "Droid Sans";
+          color: rgb(255, 255, 255);
+          font-weight: bold;
+          border-radius: 2px;
+          background-color: rgb(102, 102, 109);
+          width: 104px;
+          height: 31px;
+          float: left;
+        }
+
+        span {
+          margin-left: 18px;
+          font-size: 12px;
+          font-family: "Droid Sans";
+          color: rgb(102, 102, 109);
+          line-height: 31px;
+          text-align: left;
+          float: left;
+        }
+
+        input[type=text] {
+          box-sizing: border-box;
+          border-style: solid;
+          border-width: 1px;
+          border-color: rgb(206, 206, 220);
+          border-radius: 2px;
+          background-color: rgb(248, 248, 250);
+          width: 145px;
+          height: 33px;
+          margin-top: -1px;
+          float: left;
+          margin-left: 14px;
+        }
+
+        input[type=checkbox] {
+          float: left;
+          margin-left: 19px;
+          line-height: 31px;
+          border-style: solid;
+          border-width: 1px;
+          border-color: rgb(206, 206, 220);
+          border-radius: 2px;
+          background-color: rgb(248, 248, 250);
+          width: 20px;
+          height: 20px;
+          margin-top: 6px;
+        }
+
+        label {
+          float: left;
+          margin-left: 18px;
+          font-size: 12px;
+          font-family: "Droid Sans";
+          color: rgb(102, 102, 109);
+          line-height: 31px;
+          text-align: left;
+        }
+
+        input[type=submit] {
+          border-radius: 2px;
+          background-color: rgb(168, 190, 161);
+          width: 73px;
+          height: 31px;
+          float: right;
+        }
+      }
     }
 
     #leftSide {
       float: left;
       width: 485px;
       min-height: 100px;
-      background-color: blue;
+
+      h2 {
+        background-color: #f8f8fa;
+        height: 71px;
+        font-size: 16px;
+        font-family: "Droid Sans";
+        color: rgb(239, 95, 72);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        box-sizing: border-box;
+        padding-left: 71px;
+        padding-top: 28px;
+
+      }
+
+      ul {
+        border-top: 1px solid #d7d7de;
+
+        li {
+          border-bottom: 1px solid #d7d7de;
+          box-sizing: border-box;
+          height: 151px;
+          background: #f8f8fa url(../images/arrow.png) 31px center no-repeat;
+          position: relative;
+
+          .stars {
+            position: absolute;
+            left: 137px;
+            top: 20px;
+          }
+
+          .avatar {
+            position: absolute;
+            top: 53px;
+            left: 71px;
+
+          }
+
+          .profile {
+            position: absolute;
+            left: 135px;
+            top: 53px;
+
+            .name {
+                  font-size: 16px;
+                    font-family: "Droid Sans";
+                      color: rgb(102, 102, 109);
+                        font-weight: bold;
+                          line-height: 1.2;
+                            text-align: left;
+
+
+            }
+            .email {
+              font-size: 12px;
+              font-family: "Droid Sans";
+              color: rgb(102, 102, 109);
+              line-height: 1.5;
+              text-align: left;
+            }
+            .status {
+              font-size: 12px;
+              line-height: 18px;
+              text-align: left;
+              color: #a8bea1;
+              font-weight: bold;
+            }
+          }
+        }
+
+        li.active {
+          background-color: #f1f1f9;
+        }
+      }
+
+      div.page-numbers {
+        height: 31px;
+        width: 168px;
+        margin-top: 132px;
+        margin-left: 71px;
+        margin-bottom: 100px;
+        box-sizing: border-box;
+
+        a {
+          background-color: #cecedc;
+          text-align: center;
+          text-decoration: none;
+          color: white;
+          display: block;
+          height: 31px;
+          width: 31px;
+          margin-right: 8px;
+          line-height: 31px;
+          float: left;
+          border-radius: 2px;
+          font-size: 14px;
+          font-family: "Droid Sans";
+          font-weight: bold;
+        }
+
+        a.active {
+          background-color: #f1f1f9;
+          color: #cecedc;
+        }
+
+        a:last-child {
+          width: 51px;
+          margin-right: 0;
+        }
+      }
     }
 
     #rightSide {
       float: left;
       width: 539px;
       min-height: 200px;
-      background: aqua;
+      background-color: rgb(241, 241, 249);
+      box-sizing: border-box;
+      padding-top: 28px;
+
+      .profile-details {
+        height: 160px;
+        width: 455px;
+        margin-left: 42px;
+        background-color: green;
+
+      }
+      .customer-information {
+        width: 455px;
+        height: 460px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: purple;
+        margin-top: 36px;
+      }
+
+      .text-redactor {
+        height: 256px;
+        width: 456px;
+        margin-left: auto;
+        margin-right: auto;
+        background: pink;
+        margin-top: 35px;
+      }
+
+      .file-space {
+        width: 455px;
+        height: 78px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 36px;
+        background: orange;
+      }
+
+      .statistics {
+        height: 536px;
+        width: 456px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 36px;
+        margin-bottom: 243px;
+        background: cyan;
+      }
     }
   }
 }
