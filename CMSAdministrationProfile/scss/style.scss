@@ -223,7 +223,7 @@ body {
 
     #leftSide {
       float: left;
-      width: 485px;
+      width: 484px;
       min-height: 100px;
       box-sizing: border-box;
       position: relative;
@@ -233,7 +233,7 @@ body {
         width: 11px;
         height: 44px;
         position: absolute;
-        right: -5px;
+        right: -6px;
         top: 14px;
       }
 
@@ -249,7 +249,6 @@ body {
         box-sizing: border-box;
         padding-left: 71px;
         padding-top: 26px;
-        border-right: 1px solid #cecedc;
       }
 
       ul {
@@ -258,10 +257,9 @@ body {
         li {
           border-bottom: 1px solid #d7d7de;
           box-sizing: border-box;
-          height: 151px;
+          height: 152px;
           background: #f8f8fa url(../images/arrow.png) 31px center no-repeat;
           position: relative;
-          border-right: 1px solid #cecedc;
 
           .stars {
             position: absolute;
@@ -282,14 +280,12 @@ body {
             top: 53px;
 
             .name {
-                  font-size: 16px;
-                    font-family: "Droid Sans";
-                      color: rgb(102, 102, 109);
-                        font-weight: bold;
-                          line-height: 1.2;
-                            text-align: left;
-
-
+              font-size: 16px;
+              font-family: "Droid Sans";
+              color: rgb(102, 102, 109);
+              font-weight: bold;
+              line-height: 1.2;
+              text-align: left;
             }
             .email {
               font-size: 12px;
@@ -308,9 +304,14 @@ body {
           }
         }
 
+        li:first-child {
+          height: 151px;
+        }
+
         li.active {
           background-color: #f1f1f9;
           border-right: none;
+          width: 485px;
         }
       }
 
@@ -353,11 +354,12 @@ body {
 
     #rightSide {
       float: left;
-      width: 539px;
+      width: 540px;
       min-height: 200px;
       background-color: rgb(241, 241, 249);
       box-sizing: border-box;
       padding-top: 28px;
+      border-left: 1px solid #cecedc;
 
       .profile-details {
         height: 160px;
