@@ -78,27 +78,47 @@ body {
         padding-left: 12px;
         /* TODO */
         /* Place holder text style */
+        color: white;
+        font-size: 12px;
+        font-family: "Droid Sans";
+        line-height: 1.2;
       }
     }
 
     >ul {
+      margin-top: 24px;
+
       li {
         font-size: 12px;
         color: $leftnavcategorytitlebgcolor;
+        
 
-        h2 {
+        p {
+          font-size: 12px;
           padding-left: 30px;
+          height: 20px;
         }
 
         ul li {
           color: white;
           box-sizing: border-box;
           padding-left: 30px;
+          line-height: 29px;
+          font-family: "Droid Sans";
+
+          a {
+            text-decoration: none;
+            color: white;
+          }
         }
 
         ul li.active {
           background: rgb(92, 92, 94) url(../images/orangebar.png) left center no-repeat;
         }
+      }
+
+      >li {
+        margin-top: 16px;
       }
     }
   }
