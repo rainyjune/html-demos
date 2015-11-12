@@ -495,8 +495,81 @@ body {
         height: 460px;
         margin-left: auto;
         margin-right: auto;
-        background-color: purple;
+        background-color: #f1f1f9;
         margin-top: 36px;
+
+        h2 {
+          font-size: 16px;
+          font-family: "Droid Sans";
+          color: rgb(102, 102, 109);
+          font-weight: bold;
+          line-height: 1.2;
+          text-align: left;
+        }
+
+        form {
+          margin-top: 9px;
+
+          table {
+            width: 100%;
+
+            tr {
+              th {
+                text-align: left;
+                color: #66666d;
+                font-size: 12px;
+                font-family: "Droid Sans";
+                font-weight: normal;
+                height: 38px;
+                vertical-align: middle;
+                text-transform: capitalize;
+              }
+
+              td {
+                input[type=text] {
+                  box-sizing: border-box;
+                  height: 33px;
+                  width: 212px;
+                  border: 1px solid #cecedc;
+                  border-radius: 2px;
+                  background-color: #f8f8fa;
+                  padding-left: 9px;
+                  color: #7f7f85;
+                  font-size: 12px;
+                  font-family: "Droid Sans";
+                }
+              }
+
+              td:nth-child(2) {
+                width: 33px;
+              }
+            }
+
+            tr:nth-last-child(1) {
+              height: 31px;
+
+              input[type=submit] {
+                width: 211px;
+                height: 31px;
+                border-radius: 2px;
+                background-color: #435870;
+                color: white;
+                font-size: 14px;
+                text-align: center;
+                font-style: bold;
+              }
+            }
+            tr:nth-last-child(2) {
+              height: 44px;
+              font-size: 12px;
+              font-family: "Droid Sans";
+              color: rgb(102, 102, 109);
+              font-weight: bold;
+              line-height: 1.2;
+              text-align: left;
+            }
+          }
+        }
       }
 
       .text-redactor {
