@@ -225,6 +225,17 @@ body {
       float: left;
       width: 485px;
       min-height: 100px;
+      box-sizing: border-box;
+      position: relative;
+
+      .drager {
+        width: 11px;
+        height: 44px;
+        position: absolute;
+        right: -5px;
+        top: 14px;
+        background: url(../images/Drager.png) no-repeat;
+      }
 
       h2 {
         background-color: #f8f8fa;
@@ -238,7 +249,7 @@ body {
         box-sizing: border-box;
         padding-left: 71px;
         padding-top: 28px;
-
+        border-right: 1px solid #cecedc;
       }
 
       ul {
@@ -250,6 +261,7 @@ body {
           height: 151px;
           background: #f8f8fa url(../images/arrow.png) 31px center no-repeat;
           position: relative;
+          border-right: 1px solid #cecedc;
 
           .stars {
             position: absolute;
@@ -298,6 +310,7 @@ body {
 
         li.active {
           background-color: #f1f1f9;
+          border-right: none;
         }
       }
 
