@@ -745,6 +745,51 @@ body {
               line-height: 1.5;
               text-align: left;
               font-weight: normal;
+              width: 227px;
+            }
+          }
+
+          tr:last-child {
+            box-sizing: border-box;
+            height: 18px;
+            border: 1px solid #cecedc;
+            border-radius: 2px;
+
+            div {
+              height: 16px;
+            }
+
+            td:first-child {
+              font-size: 12px;
+              font-family: "Droid Sans";
+              color: rgb(239, 95, 72);
+              font-weight: bold;
+              line-height: 1.2;
+              text-align: left;
+              box-sizing: border-box;
+              padding-left: 5px;
+              border-right: 1px solid #cccdd0;
+
+              div {
+                width: 93px;
+                background-color: #ef5f48;
+                float: right;
+              }
+            }
+            td:last-child {
+              font-size: 12px;
+              font-family: "Droid Sans";
+              color: rgb(168, 190, 161);
+              font-weight: bold;
+              line-height: 1.2;
+              text-align: right;
+              box-sizing: border-box;
+              padding-right: 5px;
+              div {
+                width: 111px;
+                background-color: #a8bea1;
+                float: left;
+              }
             }
           }
         }
