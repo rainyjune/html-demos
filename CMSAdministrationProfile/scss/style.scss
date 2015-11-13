@@ -601,6 +601,7 @@ body {
         textarea {
           box-sizing: border-box;
           width: 100%;
+          max-width: 100%;
           height: 131px;
           max-height: 131px;
           border: 1px solid #cecedc;
@@ -732,6 +733,17 @@ body {
 
           }
 
+        }
+
+        p.daysleft {
+          position: absolute;
+          left: 1px;
+          top: 226px;
+          font-size: 12px;
+          font-family: "Droid Sans";
+          color: rgb(102, 102, 109);
+          line-height: 1.5;
+          text-align: left;
         }
 
         div.daysleftbar {
