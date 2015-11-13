@@ -895,10 +895,47 @@ body {
 
         img.chart {
           position: absolute;
-          bottom: 0;
+          bottom: 28px;
           left: 0;
-          width: 460px;
-          height: 234px;
+          width: 458px;
+          height: 204px;
+        }
+
+        div.tabs {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 451px;
+          height: 22px;
+          box-sizing: border-box;
+
+          div{
+            float: left;
+            border-left: 1px solid #cecedc;
+            height: 22px;
+            box-sizing: border-box;
+            border-top: 1px solid #cecedc;
+            text-align: center;
+            font-size: 12px;
+            font-family: "Droid Sans";
+            line-height: 1.2;
+            color: #cecedc;
+            line-height: 19px;
+
+          }
+
+          div:first-child {
+            width: 225px;
+          }
+          div:last-child {
+            width: 226px;
+          }
+
+          div.active {
+            border-top: none;
+            border-bottom: 1px solid #cecedc;
+            color: rgb(102, 102, 109);
+          }
         }
       }
 
