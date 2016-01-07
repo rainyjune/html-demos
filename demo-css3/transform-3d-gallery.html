@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type='text/css'>
+      body {  background: #100000; font-size: 1.5rem;  }
+      
+      p {
+        margin: 0;
+        padding: 0;
+      }
+      
+      div#gallery { 
+        -webkit-perspective: 1200px;
+        perspective: 1200px; 
+      }
+      figure#spinner {
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d; 
+        min-height: 122px; 
+        -webkit-transform-origin: 50% 50% -500px;
+        transform-origin: 50% 50% -500px; 
+        
+        -webkit-transition: 1s;
+        transition: 1s; 
+      }
+      figure#spinner img { 
+        width: 40%; 
+        position: absolute; 
+        left: 30%;  
+        -webkit-transform-origin-z: -500px; 
+        transform-origin-z: 50% 50% -500px; 
+        outline: 1px solid transparent; 
+      }
+
+      figure#spinner img:nth-child(1) {
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg); 
+      }
+      figure#spinner img:nth-child(2) {
+        -webkit-transform: rotateY(-45deg);
+        transform: rotateY(-45deg); 
+      }
+      figure#spinner img:nth-child(3) {
+        -webkit-transform: rotateY(-90deg);
+        transform: rotateY(-90deg); 
+      }
+      figure#spinner img:nth-child(4) {
+        -webkit-transform: rotateY(-135deg);
+        transform: rotateY(-135deg); 
+      }
+      figure#spinner img:nth-child(5) { 
+        -webkit-transform: rotateY(-180deg);
+        transform: rotateY(-180deg); 
+      }
+      figure#spinner img:nth-child(6) {
+        -webkit-transform: rotateY(-225deg);
+        transform: rotateY(-225deg); 
+      }
+      figure#spinner img:nth-child(7) { 
+        -webkit-transform: rotateY(-270deg);
+        transform: rotateY(-270deg); 
+      }
+      figure#spinner img:nth-child(8) { 
+        -webkit-transform: rotateY(-315deg);
+        transform: rotateY(-315deg); 
+      }
+      
+      #notes {
+        color: white;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- http://demosthenes.info/blog/690/Simple-CSS-3D-Carousel-Gallery -->
+    <div id="notes">
+      <p>Note:</p>
+      <ul>
+        <li>IE does not support the transform-style: preserve-3d property. This prevents nesting 3D transformed elements.</li>
+        <li>Android 2 does not support CSS3 3D transforms.</li>
+      </ul>
+    </div>
+    
+      <div id="gallery">    
+        <figure id="spinner">        
+          <img src="images/Desert.jpg" alt="Desert">        
+          <img src="images/Hydrangeas.jpg" alt="Hydrangeas">       
+          <img src="images/Jellyfish.jpg" alt="Jellyfish">       
+          <img src="images/Koala.jpg" alt="Koala"> 
+          <img src="images/Lighthouse.jpg" alt="Light house">       
+          <img src="images/Penguins.jpg" alt="Penguins">       
+          <img src="images/Tulips.jpg" alt="Tulips">
+          <img src="images/1e1d2349532baf499eae19788bb8401e.jpg" alt="Windows" />
+        </figure> 
+      </div>
+    <div>
+      <a href="#" style="float: left" onclick="galleryspin('-')">◀</a>
+      <a href="#" style="float: right" onclick="galleryspin('')">▶</a>
+    </div>
+
+    <script>
+      var angle = 0;
+      function galleryspin(sign) {
+      spinner = document.querySelector("#spinner");
+      if (!sign) { angle = angle + 45; } else { angle = angle - 45; }
+      spinner.setAttribute("style","-webkit-transform: rotateY("+ angle +"deg); transform: rotateY("+ angle +"deg);");
+      }
+    </script>
+  </body>
+</html>

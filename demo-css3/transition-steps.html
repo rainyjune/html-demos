@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+      h1 {
+        font-family: Futura; "Arial Black", Arial, sans-serif;
+        text-align: center;
+      }
+      
+      h1.active {
+        -webkit-transition: 4s all;
+        -moz-transition: 4s all;
+        transition: 4s all;
+        
+        -webkit-transition-timing-function: steps(3, end);
+        -moz-transition-timing-function: steps(3, end);
+        -o-transition-timing-function: steps(3, end);
+        transition-timing-function: steps(3, end);
+        
+        -webkit-transform: translateX(100px);
+        -moz-transform: translateX(100px);
+        -ms-transform: translateX(100px);
+        transform: translateX(100px);
+      }
+    </style>
+  </head>
+  <body>
+      <h1>TODO write content</h1>
+      <p>Note: Android 2 doesn't support step functions.</p>
+      <script>
+        setTimeout(function(){
+          document.querySelector("h1").className = "active";
+        }, 0);
+      </script>
+  </body>
+</html>

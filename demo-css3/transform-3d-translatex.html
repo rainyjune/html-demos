@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+      div {
+        width: 150px;
+        height: 100px;
+        position: absolute;
+      }
+      
+      #div1, #div2 {
+        left: 100px;
+        top: 50px;
+      }
+      
+      #div3, #div4 {
+        left: 100px;
+        top: 200px;
+      }
+      
+      #div1, #div3 {
+        border: 1px solid blue;
+        background-color: gray;
+        color: white;
+      }
+      
+      #div2, #div4 {
+        border: 1px dotted red;
+      }
+      
+      #div2 p, #div4 p {
+        margin-top: 30px;
+      }
+      
+      .translateX {
+        -webkit-transform: translate3d(50px, 0, 0);
+        -moz-transform: translate3d(50px, 0, 0);
+        -ms-transform: translate3d(50px, 0, 0);
+        transform: translate3d(50px, 0, 0);
+      }
+      
+      .translateXLeft {
+        -webkit-transform: translateX(-50px);
+        -moz-transform: translateX(-50px);
+        -ms-transform: translateX(-50px);
+        transform: translateX(-50px);
+      }
+      
+    </style>
+  </head>
+  <body>
+      <p>transform: translate3d is supported in this browser? <span id="result">Yes</span></p>
+      <div id="div1">Default position</div>
+      <div id="div2" class="translateX"><p>Div with transform: translate3d(50px, 0, 0)</p></div>
+      
+      <div id="div3">Default position</div>
+      <div id="div4" class="translateXLeft"><p>Div with translateX(-50px)</p></div>
+      <script>
+        function has3d(){
+            var el = document.createElement('p'),
+            has3d,
+            transforms = {
+                'webkitTransform':'-webkit-transform',
+                'OTransform':'-o-transform',
+                'msTransform':'-ms-transform',
+                'MozTransform':'-moz-transform',
+                'transform':'transform'
+            };
+         
+            // Add it to the body to get the computed style
+            document.body.insertBefore(el, null);
+         
+            for(var t in transforms){
+                if( el.style[t] !== undefined ){
+                    el.style[t] = 'translate3d(1px,1px,1px)';
+                    has3d = window.getComputedStyle(el).getPropertyValue(transforms[t]);
+                }
+            }
+         
+            document.body.removeChild(el);
+         
+            return (has3d !== undefined && has3d.length > 0 && has3d !== "none");
+        }
+        document.querySelector("#result").innerHTML = has3d();
+      </script>
+  </body>
+</html>

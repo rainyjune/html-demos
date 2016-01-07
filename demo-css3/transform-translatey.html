@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+      div {
+        width: 150px;
+        height: 100px;
+        position: absolute;
+      }
+      
+      #div1, #div2 {
+        left: 100px;
+        top: 50px;
+      }
+      
+      #div3, #div4 {
+        left: 100px;
+        top: 300px;
+      }
+      
+      #div1, #div3 {
+        border: 1px solid blue;
+        background-color: gray;
+        color: white;
+      }
+      
+      #div2, #div4 {
+        border: 1px dotted red;
+      }
+      
+      #div2 p, #div4 p {
+        margin-top: 30px;
+      }
+      
+      .translatey {
+        -webkit-transform: translateY(50px);
+        -moz-transform: translateY(50px);
+        -ms-transform: translateY(50px);
+        transform: translateY(50px);
+      }
+      
+      .translateytop {
+        -webkit-transform: translateY(-50px);
+        -moz-transform: translateY(-50px);
+        -ms-transform: translateY(-50px);
+        transform: translateY(-50px);
+      }
+    </style>
+  </head>
+  <body>
+      <div id="div1">Default position</div>
+      <div id="div2" class="translatey"><p>Div with translateY(50px)</p></div>
+      
+      <div id="div3">Default position</div>
+      <div id="div4" class="translateytop"><p>Div with translateY(-50px)</p></div>
+  </body>
+</html>

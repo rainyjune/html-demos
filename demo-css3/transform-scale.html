@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+      #div1, #div2 {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: 100px;
+      }
+      
+      #div1 {
+        top: 0;
+        border: 1px solid blue;
+      }
+      #div2 {
+        top: -102px;
+        border: 1px solid green;
+      }
+      
+      .scale2 {
+        -webkit-transform: scale(2);
+        -moz-transform: scale(2);
+        -ms-transform: scale(2);
+        -o-transform: scale(2);
+        transform: scale(2);
+      }
+      
+      img.flip {
+        -webkit-transform: scaleX(-1);
+        -moz-transform: scaleX(-1);
+        -ms-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        transform: scaleX(-1);
+      }
+    </style>
+  </head>
+  <body>
+    
+    <h2>Scale(2)</h2>
+    
+    <div id="div1"></div>
+    <div id="div2" class="scale2"></div>
+    
+    
+    <h2>Flipping an image with scaleX(-1)</h2>
+    <div><img width="140" src="images/b4e76183798d72279909bc9333ad4f67.jpg" alt="cat" /><img class="flip" width="140" src="images/b4e76183798d72279909bc9333ad4f67.jpg" alt="cat" /></div>
+    <p>Original photograph(left) flipped using CSS3 scale transform(right)</p>
+  </body>
+</html>

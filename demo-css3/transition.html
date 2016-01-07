@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+      div {
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+        
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        -o-transition: all 1s;
+        transition: all 1s;
+      }
+      
+      div.active {
+        -webkit-transform: rotate(.5turn);
+        transform: rotate(.5turn);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="testDiv">TODO write content</div>
+    <button id="btn">Click</button>
+    <script>
+      window.onload = function(){
+        var theDiv = document.getElementById("testDiv");
+        document.getElementById("btn").addEventListener("click", function(){
+          theDiv.className="active";
+          setTimeout(function(){
+            theDiv.className = "";
+          }, 2000);
+        });
+      };
+    </script>
+  </body>
+</html>
