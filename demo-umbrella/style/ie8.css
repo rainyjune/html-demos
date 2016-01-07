@@ -1,0 +1,7 @@
+﻿div.disc-outer {
+  border: none;
+  background: url(../images/EllipseWhite.png) no-repeat center center;
+}
+div.disc-inner {
+  background: url(../images/EllipseBlue.png) no-repeat center center;
+}

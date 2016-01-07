@@ -1,0 +1,12 @@
+﻿ul.advertisers {
+  overflow: hidden;
+  text-align: center;
+}
+
+  ul.advertisers li {
+    display: inline;
+    padding-right: 0;
+  }
+
+  ul.advertisers li img {
+  }
