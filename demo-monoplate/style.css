@@ -1,0 +1,425 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+ul,ol{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+p, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+#top {
+  width: 100%;
+  height: 50px;
+  background: url(images/top-bg.png) repeat-x;
+}
+
+#top > div {
+  width: 1000px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#top-nav {
+  float: left;
+}
+
+#top-nav li {
+  font-family: 'Marvel', sans-serif;
+  float: left;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #a0a0a0;
+  margin-right: 40px;
+}
+
+#top-nav li.active {
+  text-decoration: underline;
+  color: #000;
+}
+
+#top-nav li a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+#top-share {
+  float: right;
+}
+
+#top-share li{
+  float: right;
+  height: 50px;
+  line-height: 50px;
+  margin-left: 32px;
+}
+
+#header {
+  width: 100%;
+  height: 50px;
+  background-color: #1e1e1e;
+  background: url(images/header-bg.png);
+  background-repeat: repeat-x;
+  
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333333), to(#010101));
+  background: -webkit-linear-gradient(top, #333333, #010101);
+  background: -moz-linear-gradient(top, #333333, #010101);
+  background: -ms-linear-gradient(top, #333333, #010101);
+  background: -o-linear-gradient(top, #333333, #010101);
+}
+
+#header > div {
+  width: 1000px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#menu {
+  float: right;
+  height: 100%;
+}
+
+#menu li {
+  font-family: 'Marvel', sans-serif;
+  float: right;
+  color: #b9b9b9;
+  line-height: 50px;
+  margin-left: 42px;
+  text-transform: uppercase;
+}
+#menu li.active {
+  color: white;
+  text-decoration: underline;
+}
+
+#menu li a {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: 20px;
+}
+
+#logo {
+  float: left;
+  height: 100%;
+}
+
+#page {
+  width: 100%;
+  height: 1106px;
+  background: url(images/page-bg.png) repeat-x;
+  padding-top: 50px;
+}
+
+#page > div {
+  width: 1000px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 3px solid #367d8d;
+  padding-top: 22px;
+  background-color: white;
+}
+
+#hello {
+  height: 300px;
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px dotted #d2d2d2;
+}
+
+p.category {
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+  background-color: #f1f1f1;
+  font-size: 11px;
+  font-family: Arial;
+  position: relative;
+}
+
+p.category span {
+  left: 24px;
+  display: inline-block;
+  width: 96px;
+  height: 25px;
+  text-align: center;
+  border: 1px solid #e7e7e7;
+  border-left-color: #e0e0e0;
+  border-right-color: #e1e1e1;
+  vertical-align: middle;
+  position: absolute;
+  top: -1px;
+  color: #999;
+}
+
+#hello div.article {
+  width: 950px;
+  height: 225px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+
+#hello div.article .excerpt {
+  float: left;
+  width: 425px;
+  height: 225px;
+}
+#hello div.article .excerpt > p:nth-child(1) {
+  color: #050505;
+  font-size: 20px;
+  font-family: 'Marvel', sans-serif;
+}
+
+#hello div.article .excerpt > p:nth-child(2),
+#hello div.article .excerpt > p:nth-child(3) {
+  font-size: 14px;
+  color: #777;
+  font-family: arial;
+}
+
+#hello div.article .excerpt > p:nth-child(2) {
+  margin-top: 20px;
+}
+
+#hello div.article .excerpt > p:nth-child(3) {
+  margin-top: 25px;
+}
+
+#hello div.article .excerpt > p.button {
+  margin-top: 30px;
+  color: #5e9ba8;
+  height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Button-1.png */
+
+#hello div.article .excerpt > p.button > span {
+  display: inline-block;
+  height: 100%;
+  line-height: 30px;
+  text-align: center;
+}
+
+#hello div.article .excerpt > p.button > span:nth-child(1) {
+  width: 127px;
+  background: url(images/Button-1.png) no-repeat left center;
+  margin-right: 30px;
+}
+
+#hello div.article .excerpt > p.button > span:nth-child(2) {
+  width: 118px;
+  background: url(images/Button-2.png) no-repeat left center;
+  margin-right: 20px;
+}
+
+
+#hello div.article .excerpt > p.button > span:nth-child(3) {
+  width: 122px;
+  background: url(images/Button-3.png) no-repeat left center;
+}
+
+
+
+
+
+#hello div.article .slider {
+  float: right;
+  width: 462px;
+  height: 225px;
+  background-color: #ebebeb;
+  position: relative;
+}
+
+#hello div.article .slider img.leftArrow{
+  position: absolute;
+  right: 55px;
+  top: 25px;
+}
+
+#hello div.article .slider img.rightArrow{
+  position: absolute;
+  right: 25px;
+  top: 25px;
+}
+
+#albums {
+  width: 950px;
+  height: 425px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+  border-bottom: 1px solid #d2d2d2;
+  overflow: auto;
+}
+
+#albums >div.album {
+  float: left;
+  width: 219px;
+  height: 375px;
+  margin-right: 24px;
+  position: relative;
+}
+
+#albums >div.album:last-child {
+  margin-right: 0;
+}
+
+#albums >div.album div.albumImage {
+  position: absolute;
+  left: 25px;
+  top: 0;
+}
+
+#albums >div.album div.bgcolor {
+  position: absolute;
+  left: 0;
+  top: 25px;
+  background-color: #efefef;
+  width: 220px;
+  height: 300px;
+}
+
+#albums >div.album div.albumImage + p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+  font-size: 18px;
+  
+  text-decoration: underline;
+  background: url(images/Icon--Plus.png) 20px center no-repeat;
+  font-family: 'Marvel';
+}
+
+#albums >div.album div.albumImage + p a {
+  color: #367d8d;
+}
+
+#albums >div.album div.albumImage + p a.inactive {
+  color: #929292;
+}
+
+#blog {
+  width: 950px;
+  height: 306px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+}
+
+#blog p.category {
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+  background-color: #f1f1f1;
+  font-size: 11px;
+  font-family: Arial;
+}
+
+#blog div.article {
+  margin-top: 25px;
+}
+
+#blog div.article h3 {
+  color: #1d1d1d;
+  font-size: 30px;
+  font-family: 'Marvel';
+}
+
+#blog div.article p.post-data {
+  font-size: 12px;
+  color: #aaa;
+  font-family: 'Marvel', sans-serif;
+  margin-top: 18px;
+}
+
+#blog div.article p.post-data > span {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#blog div.article p.post-data > span:nth-child(1) {
+  padding-left: 20px;
+  background: url(images/Clock.png) left center no-repeat;
+}
+
+#blog div.article p.post-data > span:nth-child(2) {
+  padding-left: 20px;
+  background: url(images/Tags.png) left center no-repeat;
+}
+
+#blog div.article p.post-data > span:nth-child(3) {
+  padding-left: 20px;
+  background: url(images/Responses.png) left center no-repeat;
+}
+
+#blog div.article p.long-data {
+  font-size: 16px;
+  color: #676767;
+  font-family: Arial;
+  margin-top: 19px;
+  width: 731px;
+}
+
+#blog div.article p.buttons {
+  background: url(images/Button-readmore.png) left center no-repeat;
+  margin-top: 18px;
+  height: 29px;
+  line-height: 29px;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #5e9ba8;
+  font-family: Arial;
+}
+
+#footer {
+  width: 950px;
+  height: 174px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #efefef;
+  margin-bottom: 20px;
+  border-top: 3px solid #cdcdcd;
+  padding-top: 20px;
+  padding-left: 25px;
+  font-family: 'Marvel', sans-serif;
+}
+
+#footer > div {
+  float: left;
+  width: 170px;
+  height: 151px;
+  padding-right: 25px;
+}
+
+#footer h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #999;
+}
+
+#footer p {
+  font-size: 18px;
+  color: #656565;
+}
