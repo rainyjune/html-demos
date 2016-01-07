@@ -1,0 +1,254 @@
+h1, h2, h3, p, ul, li, ol {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: repeating-linear-gradient(
+    -45deg,
+    #7f93a1,
+    #7f93a1 20px,
+    #8c9eab 20px,
+    #8c9eab 40px
+  );
+  background-size: 100% 100%;
+}
+.wrapper {
+  width: 454px;
+  height: 641px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  padding-left: 18px;
+  padding-right: 13px;
+  padding-top: 21px;
+  padding-bottom: 29px;
+}
+
+.wrapper > div {
+  float: left;
+  height: 100%;
+}
+
+.wrapper > div:first-child {
+  width: 167px;
+}
+
+.wrapper > div:nth-child(2) {
+  margin-left: 31px;
+  width: 256px;
+}
+
+.nameZone {
+  width: 100%;
+  height: 162px;
+  padding-top: 5px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.nameZone h1 {
+  height: 20px;
+}
+
+.nameZone > p:nth-child(2) {
+  font-size: 22px;
+}
+
+.nameZone > p:nth-child(3) {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.nameZone > p:nth-child(4) {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.profile {
+  width: 100%;
+  height: 130px;
+  margin-top: 34px;
+  overflow: hidden;
+}
+
+.profile h2 {
+  padding-left: 35px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #006cb4;
+  background: url(images/avatar-icon.png) left top no-repeat, url(images/blue-line.png) right center no-repeat;
+  height: 29px;
+  line-height: 29px;
+}
+
+.profile p {
+  font-size: 6.25px;
+}
+
+.contact {
+  width: 100%;
+  height: 120px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.contact h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #006cb4;
+  padding-left: 35px;
+  background: url(images/Phone-Icon.png) left center no-repeat, url(images/LINE-copia.png) right center no-repeat;
+  height: 29px;
+  line-height: 29px;
+}
+
+.contact ul li span:first-child {
+  color: #006cb4;
+  font-size: 9px;
+  width: 52px;
+  display: inline-block;
+}
+
+.contact ul {
+  margin-top: 15px;
+}
+
+.contact ul li {
+}
+
+.contact ul li span:nth-child(2){
+  font-size: 9px;
+}
+
+.skills {
+  width: 100%;
+  height: 153px;
+  margin-top: 17px;
+  overflow: hidden;
+  text-align:  center;
+}
+
+.skills h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #006cb4;
+  padding-left: 35px;
+  background: url(images/SKILLS-ICON.png) left center no-repeat, url(images/LINE-skill.png) right center no-repeat;
+  height: 29px;
+  line-height: 29px;
+  text-align: left;
+}
+
+.skills p {
+  font-size: 10px;
+  text-align: center;
+}
+
+.education {
+  width: 100%;
+  height: 255px;
+}
+
+.education h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #006cb4;
+  padding-left: 35px;
+  background: url(images/EDUCATION-ICON.png) left center no-repeat, url(images/LINE-education.png) right center no-repeat;
+  height: 29px;
+  line-height: 29px;
+}
+
+.education ul {
+  padding-left: 22px;
+}
+
+.education ul li h3{
+  font-size: 10px;
+  color: #006cb4;
+}
+
+.education ul li h3 span {
+  color: #010101;
+}
+
+.education ul li h3 + p {
+  font-size: 10px;
+}
+
+.education ul li  p {
+  font-size: 6.25px;
+}
+
+
+.experience {
+  width: 100%;
+  height: 207px;
+  margin-top: 22px;
+}
+
+.experience h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #006cb4;
+  padding-left: 35px;
+  background: url(images/EXPERIENCE-ICON.png) left center no-repeat, url(images/LINE-exp.png) right center no-repeat;
+  height: 29px;
+  line-height: 29px;
+}
+
+.experience ul {
+  padding-left: 22px;
+}
+
+.experience ul li h3{
+  font-size: 10px;
+  color: #006cb4;
+}
+
+.experience ul li h3 span {
+  color: #010101;
+}
+
+.experience ul li h3 + p {
+  font-size: 10px;
+}
+
+.experience ul li  p {
+  font-size: 6.25px;
+}
+
+.software {
+  width: 100%;
+  height: 135px;
+  margin-top: 22px;
+}
+
+.software h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #006cb4;
+  padding-left: 35px;
+  background: url(images/SOFTWARE-ICON.png) left center no-repeat, url(images/LINE-software.png) right center no-repeat;
+  height: 29px;
+  line-height: 29px;
+}
+
+.software ul {
+  list-style-type: none;
+  margin-top: 13px;
+}
+
+.software ul li {
+  float: left;
+  width: 50%;
+  height: 24px;
+  margin-bottom: 12px;
+}
+
+.software ul li h3 {
+  font-size: 10px;
+}
