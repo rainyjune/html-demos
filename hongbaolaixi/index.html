@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8" />
+    <title>红包袭来</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <img class="bg" src="images/dist/background.png" alt="" />
+    <div class="modal-container" id="modal">
+      <div class="clouds">
+      </div>
+      <!--
+      <img src="images/dist/yellowCloud.png" alt="" class="foregroundCloud" />
+      <img src="images/dist/logo.png" alt="" class="logo" />
+      -->
+    </div>
+    <script>
+      document.getElementById("modal").addEventListener("touchmove", function(e) {
+        e.preventDefault();
+      }, false);
+    </script>
+  </body>
+</html>
