@@ -15,10 +15,12 @@ body {
   left: 0;
   top: 0;
   background-color: rgba(0, 0, 0, 0.83);
+  /*
   background-image: url(../images/dist/light.png);
   background-repeat: no-repeat;
   background-size: 60.625% 84.0669014084507%;
   background-position-x: 50%;
+  */
 }
 
 .clouds {
@@ -27,4 +29,8 @@ body {
   background-image: url(../images/dist/clouds.png);
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+.foregroundCloud {
+  width: 100%;
 }
