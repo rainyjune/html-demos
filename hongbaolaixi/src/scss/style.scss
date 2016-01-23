@@ -56,9 +56,11 @@
 
 .bullets {
   .bullet:first-child {
+    -webkit-animation-delay: 0s;
     animation-delay: 0s;
   }
   .bullet:nth-child(2) {
+    -webkit-animation-delay: 2.1s;
     animation-delay: 2.1s;
   }
 }
@@ -67,21 +69,26 @@
   position: absolute;
   width: 48.90625%;
   top: 19.318181818181818%;
-  animation-timing-function: linear;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
 }
 
 .bullet.left {
   left: -14.84375%;
+  
+  -webkit-transform: translate(100%, -100%);
   transform: translate(100%, -100%);
-  animation-name: leftBullet;
+  
+  -webkit-animation: leftBullet 4s linear infinite;
+  animation: leftBullet 4s linear infinite;
 }
 
 .bullet.right {
   right: -14.84375%;
+  
+  -webkit-transform: translate(-100%, -100%);
   transform: translate(-100%, -100%);
-  animation-name: rightBullet;
+  
+  -webkit-animation: rightBullet 4s linear infinite;
+  animation: rightBullet 4s linear infinite;
 }
 
 .envelopes {
@@ -91,41 +98,61 @@
     top: 23.295454545454544%;
     width: 9.84375%;
     opacity: 0;
-    
-    animation-timing-function: ease-in;
-    animation-duration: 4.8s;
-    animation-iteration-count: infinite;
-  }
-  
-  .envelope:nth-child(1) {
-    animation-delay: 0.6s;
-  }
-  .envelope:nth-child(2) {
-    animation-delay: 1.4s;
-  }
-  .envelope:nth-child(3) {
-    animation-delay: 2.2s;
-  }
-  .envelope:nth-child(4) {
-    animation-delay: 3.0s;
-  }
-  .envelope:nth-child(5) {
-    animation-delay: 3.8s;
-  }
-  .envelope:nth-child(6) {
-    animation-delay: 4.6s;
   }
   
   .envelope.left {
-    transform: translate(100%, -100%);
     right: 58.4375%;
-    animation-name: leftEnvelope;
+    
+    -webkit-transform: translate(100%, -100%);
+    transform: translate(100%, -100%);
+    
+    -webkit-animation: leftEnvelope 4.8s ease-in infinite;
+    animation: leftEnvelope 4.8s ease-in infinite;
   }
   
   .envelope.right {
-    transform: translate(-100%, -100%);
     left: 58.4375%;
-    animation-name: rightEnvelope;
+    
+    -webkit-transform: translate(-100%, -100%);
+    transform: translate(-100%, -100%);
+    
+    -webkit-animation: rightEnvelope 4.8s ease-in infinite;
+    animation: rightEnvelope 4.8s ease-in infinite;
+  }
+  
+  .envelope:nth-child(1) {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+  }
+  .envelope:nth-child(2) {
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+  }
+  .envelope:nth-child(3) {
+    -webkit-animation-delay: 2.2s;
+    animation-delay: 2.2s;
+  }
+  .envelope:nth-child(4) {
+    -webkit-animation-delay: 3.0s;
+    animation-delay: 3.0s;
+  }
+  .envelope:nth-child(5) {
+    -webkit-animation-delay: 3.8s;
+    animation-delay: 3.8s;
+  }
+  .envelope:nth-child(6) {
+    -webkit-animation-delay: 4.6s;
+    animation-delay: 4.6s;
+  }
+  
+}
+
+@-webkit-keyframes leftBullet {
+  from {
+  }
+  
+  to {
+    -webkit-transform: translate(-100%, 100%);
   }
 }
 
@@ -138,12 +165,32 @@
   }
 }
 
+@-webkit-keyframes rightBullet {
+  from {
+  }
+  
+  to {
+    -webkit-transform: translate(100%, 100%);
+  }
+}
+
 @keyframes rightBullet {
   from {
   }
   
   to {
     transform: translate(100%, 100%);
+  }
+}
+
+@-webkit-keyframes leftEnvelope {
+  from {
+    opacity: 1;
+  }
+  
+  to {
+    opacity: 1;
+    -webkit-transform: translate(-800%, 1200%) scale(8);
   }
 }
 
@@ -155,6 +202,17 @@
   to {
     opacity: 1;
     transform: translate(-800%, 1200%) scale(8);
+  }
+}
+
+@-webkit-keyframes rightEnvelope {
+  from {
+    opacity: 1;
+  }
+  
+  to {
+    opacity: 1;
+    -webkit-transform: translate(800%, 1200%) scale(8);
   }
 }
 
