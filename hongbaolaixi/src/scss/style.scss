@@ -55,6 +55,32 @@
 }
 
 .bullets {
+  .bullet {
+    position: absolute;
+    width: 48.90625%;
+    top: 19.318181818181818%;
+  }
+  
+  .bullet.left {
+    left: -14.84375%;
+    
+    -webkit-transform: translate(100%, -100%);
+    transform: translate(100%, -100%);
+    
+    -webkit-animation: leftBullet 4s linear infinite;
+    animation: leftBullet 4s linear infinite;
+  }
+
+  .bullet.right {
+    right: -14.84375%;
+    
+    -webkit-transform: translate(-100%, -100%);
+    transform: translate(-100%, -100%);
+    
+    -webkit-animation: rightBullet 4s linear infinite;
+    animation: rightBullet 4s linear infinite;
+  }
+  
   .bullet:first-child {
     -webkit-animation-delay: 0s;
     animation-delay: 0s;
@@ -63,32 +89,6 @@
     -webkit-animation-delay: 2.1s;
     animation-delay: 2.1s;
   }
-}
-
-.bullet {
-  position: absolute;
-  width: 48.90625%;
-  top: 19.318181818181818%;
-}
-
-.bullet.left {
-  left: -14.84375%;
-  
-  -webkit-transform: translate(100%, -100%);
-  transform: translate(100%, -100%);
-  
-  -webkit-animation: leftBullet 4s linear infinite;
-  animation: leftBullet 4s linear infinite;
-}
-
-.bullet.right {
-  right: -14.84375%;
-  
-  -webkit-transform: translate(-100%, -100%);
-  transform: translate(-100%, -100%);
-  
-  -webkit-animation: rightBullet 4s linear infinite;
-  animation: rightBullet 4s linear infinite;
 }
 
 .envelopes {
