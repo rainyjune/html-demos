@@ -9,7 +9,18 @@ module.exports = function(grunt) {
           noCache: true  
         },
         files: {
-          'css/style.css': 'scss/style.scss'          
+          '../build/css/style.css': 'scss/style.scss'          
+        }
+      }
+    },
+    htmlmin: {                                     // Task 
+      dist: {                                      // Target 
+        options: {                                 // Target options 
+          removeComments: true,
+          collapseWhitespace: true
+        },
+        files: {                                   // Dictionary of files 
+          '../build/index.html': 'index.html',     // 'destination': 'source' 
         }
       }
     },
@@ -17,12 +28,17 @@ module.exports = function(grunt) {
       css: {
         files: ['scss/*.scss'],
         tasks: ['sass']
+      },
+      html: {
+        files: ['index.html'],
+        tasks: ['htmlmin']
       }
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-htmlmin');
 
-  grunt.registerTask('default', ['sass']);
+  grunt.registerTask('default', ['sass', 'htmlmin']);
 };
