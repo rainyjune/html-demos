@@ -89,19 +89,55 @@ body {
 }
 
 .envelopes {
+  /*
   width: 67.65625%;
   height: 224.1477272727273%;
   position: absolute;
   left: -26.09375%;
   top: 23.295454545454544%;
-}
-
-.envelope {
-  display: block;
-  width: 31.5px;
-  height: 45px;
-  float: right;
-  clear: both;
+  */
+  
+  .envelope {
+    position: absolute;
+    top: 23.295454545454544%;
+    width: 9.84375%;
+    opacity: 0;
+    
+    animation-timing-function: ease-in;
+    animation-duration: 4.8s;
+    animation-iteration-count: infinite;
+  }
+  
+  .envelope:nth-child(1) {
+    animation-delay: 0.6s;
+  }
+  .envelope:nth-child(2) {
+    animation-delay: 1.4s;
+  }
+  .envelope:nth-child(3) {
+    animation-delay: 2.2s;
+  }
+  .envelope:nth-child(4) {
+    animation-delay: 3.0s;
+  }
+  .envelope:nth-child(5) {
+    animation-delay: 3.8s;
+  }
+  .envelope:nth-child(6) {
+    animation-delay: 4.6s;
+  }
+  
+  .envelope.left {
+    transform: translate(100%, -100%);
+    right: 58.4375%;
+    animation-name: leftEnvelope;
+  }
+  
+  .envelope.right {
+    transform: translate(-100%, -100%);
+    left: 58.4375%;
+    animation-name: rightEnvelope;
+  }
 }
 
 @keyframes leftBullet {
@@ -119,5 +155,27 @@ body {
   
   to {
     transform: translate(100%, 100%);
+  }
+}
+
+@keyframes leftEnvelope {
+  from {
+    opacity: 1;
+  }
+  
+  to {
+    opacity: 1;
+    transform: translate(-800%, 1200%) scale(8);
+  }
+}
+
+@keyframes rightEnvelope {
+  from {
+    opacity: 1;
+  }
+  
+  to {
+    opacity: 1;
+    transform: translate(800%, 1200%) scale(8);
   }
 }
