@@ -56,3 +56,9 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+#firstPost > div:first-child ~ * {
+  width: 902px;
+  margin-left: auto;
+  margin-right: auto;
+}
