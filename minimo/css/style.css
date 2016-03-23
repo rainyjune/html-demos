@@ -46,4 +46,13 @@ body {
 
 #header ul li {
   display: inline-block;
+  width: 113px;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+#header ul li a {
+  color: #626262;
+  text-decoration: none;
+  text-transform: uppercase;
 }
