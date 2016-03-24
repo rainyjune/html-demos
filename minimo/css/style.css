@@ -57,6 +57,10 @@ body {
   margin-right: auto;
 }
 
+#firstPost img {
+  display: block; /* Make sure the container DIV has the same height */
+}
+
 #firstPost > div:first-child ~ * {
   width: 902px;
   margin-left: auto;
