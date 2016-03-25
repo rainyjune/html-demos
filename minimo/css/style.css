@@ -13,7 +13,7 @@ body {
   background-color: red;
   */
   width: 1062px;
-  height: 49px;
+  height: 50px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -85,7 +85,7 @@ body {
 }
 
 #firstPost {
-  margin-top: 46px;
+  padding-top: 46px;
   width: 1062px;
   margin-left: auto;
   margin-right: auto;
@@ -99,6 +99,51 @@ body {
   width: 902px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.photodiary {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  /*
+  position: absolute;
+  left: 150px;
+  top: 770.149px;
+  */
+  width: 85px;
+  height: 11px;
+}
+
+#firstPost .title {
+  font-size: 30px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  /*
+  position: absolute;
+  left: 149.156px;
+  top: 809.598px;
+  */
+  width: 397px;
+  height: 30px;
+  font-weight: normal;
+}
+
+#firstPost p {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: left;
+  /*
+  position: absolute;
+  left: 149.004px;
+  top: 898.981px;
+  */
+  width: 893px;
+  height: 183px;
 }
 
 div.row {
