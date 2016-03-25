@@ -31,6 +31,11 @@ body {
   width: 119px;/* This value comes from Photoshop 'Copy CSS' */
 }
 
+#header h1 a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
 #header ul {
   float: right;
   margin: 0; 
