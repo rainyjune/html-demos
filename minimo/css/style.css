@@ -5,6 +5,7 @@ html {
 
 body {
   font-family: "Playfair Display";
+  padding-top: 70px;
 }
 
 #header {
@@ -16,7 +17,7 @@ body {
 }
 
 #header h1 {
-  font-family: Inconsolata;
+  font-family: "Inconsolata";
   float: left;
   font-size: 1.875em;
   margin: 0;
@@ -24,6 +25,8 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   line-height: 0.8;
+  color: rgb(0, 0, 0);
+  width: 119px;/* This value comes from Photoshop 'Copy CSS' */
 }
 
 #header ul {
