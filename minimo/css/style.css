@@ -206,13 +206,12 @@ div.row > div:last-child {
   font-family: "Playfair Display";
   color: rgb(98, 98, 98);
   line-height: 1.2;
+  font-weight: normal;
   /*
   position: absolute;
   left: 628.75px;
   top: 1604.583px;
   */
-  width: 377px;
-  height: 25px;
 }
 
 .row p {
