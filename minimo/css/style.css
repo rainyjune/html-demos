@@ -166,6 +166,66 @@ div.row {
   width: 902px;
   margin-left: auto;
   margin-right: auto;
+  /*
   background-color: blue;
+  */
   min-height: 100px;
+  height: 494px;
+  overflow: hidden;
+}
+
+div.row > div {
+  width: 420px;
+}
+
+div.row > div:first-child {
+  float: left;
+}
+
+div.row > div:last-child {
+  float: right;
+}
+
+.lifestyle {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  /*
+  position: absolute;
+  left: 629px;
+  top: 1565.149px;
+  */
+  width: 63px;
+  height: 11px;
+}
+
+.row .title {
+  font-size: 30px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  /*
+  position: absolute;
+  left: 628.75px;
+  top: 1604.583px;
+  */
+  width: 377px;
+  height: 25px;
+}
+
+.row p {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: left;
+  /*
+  position: absolute;
+  left: 628.406px;
+  top: 1693.981px;
+  */
+  width: 414px;
+  height: 63px;
 }
