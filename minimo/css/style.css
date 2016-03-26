@@ -8,6 +8,12 @@ body {
   padding-top: 70px;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 #header {
   /*
   background-color: red;
@@ -315,7 +321,7 @@ div.row > div:last-child {
   margin-right: auto;
 }
 
-#footer ul {
+#footer ul.social {
   list-style: none;
   float: right;
   padding: 0;
@@ -325,16 +331,16 @@ div.row > div:last-child {
   margin-top: 40px;
 }
 
-#footer ul li {
+#footer ul.social li {
   float: left;
   margin-right: 17px;
 }
 
-#footer ul li:last-child {
+#footer ul.social li:last-child {
   margin-right: 0;
 }
 
-#footer ul li a {
+#footer ul.social li a {
   text-decoration: none;
   display: block;
   text-indent: 876px;
@@ -342,15 +348,34 @@ div.row > div:last-child {
   background-repeat: no-repeat;
 }
 
-#footer ul li:nth-child(1) a {
+#footer ul.social li:nth-child(1) a {
   background-position: 0px 0px;
   width: 8px;
 }
-#footer ul li:nth-child(2) a {
+#footer ul.social li:nth-child(2) a {
   background-position: -18px 0px;
   width: 18px;
 }
-#footer ul li:nth-child(3) a {
+#footer ul.social li:nth-child(3) a {
   background-position: -36px 0px;
   width: 15px;
 }
+
+#footer ul.items {
+  float: left;
+  margin-top: 40px;
+}
+
+#footer ul.items li {
+  float: left;
+  margin-right: 17px;
+}
+
+#footer ul.items a {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(0, 0, 0);
+  line-height: 1.714;
+  text-decoration: none;
+}
+
