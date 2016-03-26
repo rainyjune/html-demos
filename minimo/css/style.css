@@ -255,6 +255,9 @@ div.row > div:last-child {
 
 #newsletter form fieldset {
   border: none;
+  width: 397px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #newsletter form input[type=text] {
