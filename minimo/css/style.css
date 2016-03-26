@@ -292,9 +292,65 @@ div.row > div:last-child {
   border: 1px solid #626262;
   line-height: 60px;
   text-align: center;
-  font-size: 20px;
-  font-family: "Playfair Display";
-  color: rgb(98, 98, 98);
 }
 
+#loadMoreButton a {
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  display: block;
+}
 
+#footer {
+  background-color: #f0f0f0;
+  height: 99px;
+  margin-top: 100px;
+}
+
+#footer .content {
+  width: 980px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer ul {
+  list-style: none;
+  float: right;
+  padding: 0;
+  width: 76px;
+  overflow: hidden;
+  margin: 0;
+  margin-top: 40px;
+}
+
+#footer ul li {
+  float: left;
+  margin-right: 17px;
+}
+
+#footer ul li:last-child {
+  margin-right: 0;
+}
+
+#footer ul li a {
+  text-decoration: none;
+  display: block;
+  text-indent: 876px;
+  background-image: url(../images/social.gif);
+  background-repeat: no-repeat;
+}
+
+#footer ul li:nth-child(1) a {
+  background-position: 0px 0px;
+  width: 8px;
+}
+#footer ul li:nth-child(2) a {
+  background-position: -18px 0px;
+  width: 18px;
+}
+#footer ul li:nth-child(3) a {
+  background-position: -36px 0px;
+  width: 15px;
+}
