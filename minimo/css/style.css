@@ -642,11 +642,11 @@ div.row p {
 
 #footer {
   background-color: #f0f0f0;
-  height: 99px;
-  margin-top: 100px;
+  height: 9.9rem;
+  margin-top: 10rem;
 }
 #footer .content {
-  width: 980px;
+  width: 98rem;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -658,7 +658,7 @@ div.row p {
   width: 76px;
   overflow: hidden;
   margin: 0;
-  margin-top: 40px;
+  margin-top: 4rem;
 }
 #footer ul.social li {
   float: left;
@@ -688,7 +688,7 @@ div.row p {
 }
 #footer ul.items {
   float: left;
-  margin-top: 40px;
+  margin-top: 4rem;
 }
 #footer ul.items li {
   float: left;
