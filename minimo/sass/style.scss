@@ -16,79 +16,73 @@ ul {
 }
 
 #header {
-  /*
-  background-color: red;
-  */
   width: 1062px;
   height: 50px;
   margin-left: auto;
   margin-right: auto;
-}
 
-#header h1 {
-  font-family: "Inconsolata";
-  float: left;
-  margin: 0;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  line-height: 0.8;
-  color: rgb(0, 0, 0);
-  width: 119px;/* This value comes from Photoshop 'Copy CSS' */
-
-  a {
-    font-size: 3rem;
-    text-decoration: none;
+  h1 {
+    font-family: "Inconsolata";
+    float: left;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    line-height: 0.8;
     color: rgb(0, 0, 0);
+    width: 119px;/* This value comes from Photoshop 'Copy CSS' */
+
+    a {
+      font-size: 3rem;
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+    }
   }
-}
 
-#header ul {
-  float: right;
-  margin: 0; 
-  padding: 0;
-  list-style: none;
-}
+  ul {
+    float: right;
+    margin: 0; 
+    padding: 0;
+    list-style: none;
 
-#header ul li {
-  display: inline-block;
-  width: 115px;
-  text-align: center;
-  /*
-  background-color: aqua;
-  */
-  vertical-align: top;
-}
+    li {
+      display: inline-block;
+      width: 115px;
+      text-align: center;
+      vertical-align: top;
 
-#header ul li:nth-child(1) {
-  margin-right: 87px;
-}
+      a {
+        color: #626262;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        vertical-align: top;
+        display: block;
+        line-height: 1.714;
+      }
 
-#header ul li:nth-child(2) {
-  margin-right: 56px;
-}
+      a:hover {
+        color: red;
+      }
+    }
 
-#header ul li:nth-child(3) {
-  margin-right: 28px;
-}
+    li:nth-child(1) {
+      margin-right: 87px;
+    }
 
-#header ul li:last-child {
-  width: 86px;
-  text-align: right;
-}
+    li:nth-child(2) {
+      margin-right: 56px;
+    }
 
-#header ul li a {
-  color: #626262;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1.4rem;
-  vertical-align: top;
-  display: block;
-  line-height: 1.714;
-}
+    li:nth-child(3) {
+      margin-right: 28px;
+    }
 
-#header ul li a:hover {
-  color: red;
+    li:last-child {
+      width: 86px;
+      text-align: right;
+    }
+  }
 }
 
 #firstPost {
@@ -96,32 +90,27 @@ ul {
   width: 1062px;
   margin-left: auto;
   margin-right: auto;
+
+  img {
+    display: block; /* Make sure the container DIV has the same height */
+  }
+
+  > div:first-child ~ * {
+    width: 902px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .category {
+    font-size: 1.4rem;
+    font-family: "Ubuntu";
+    color: rgb(180, 173, 158);
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-top: 96px;
+  }
 }
 
-#firstPost img {
-  display: block; /* Make sure the container DIV has the same height */
-}
-
-#firstPost > div:first-child ~ * {
-  width: 902px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.photodiary {
-  font-size: 14px;
-  font-family: "Ubuntu";
-  color: rgb(180, 173, 158);
-  text-transform: uppercase;
-  line-height: 1.2;
-  /*
-  position: absolute;
-  left: 150px;
-  top: 770.149px;
-  */
-  width: 85px;
-  height: 11px;
-}
 
 #firstPost .title {
   font-size: 30px;

@@ -417,15 +417,11 @@ ul {
 }
 
 #header {
-  /*
-  background-color: red;
-  */
   width: 1062px;
   height: 50px;
   margin-left: auto;
   margin-right: auto;
 }
-
 #header h1 {
   font-family: "Inconsolata";
   float: left;
@@ -443,41 +439,18 @@ ul {
   text-decoration: none;
   color: black;
 }
-
 #header ul {
   float: right;
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
 #header ul li {
   display: inline-block;
   width: 115px;
   text-align: center;
-  /*
-  background-color: aqua;
-  */
   vertical-align: top;
 }
-
-#header ul li:nth-child(1) {
-  margin-right: 87px;
-}
-
-#header ul li:nth-child(2) {
-  margin-right: 56px;
-}
-
-#header ul li:nth-child(3) {
-  margin-right: 28px;
-}
-
-#header ul li:last-child {
-  width: 86px;
-  text-align: right;
-}
-
 #header ul li a {
   color: #626262;
   text-decoration: none;
@@ -487,9 +460,21 @@ ul {
   display: block;
   line-height: 1.714;
 }
-
 #header ul li a:hover {
   color: red;
+}
+#header ul li:nth-child(1) {
+  margin-right: 87px;
+}
+#header ul li:nth-child(2) {
+  margin-right: 56px;
+}
+#header ul li:nth-child(3) {
+  margin-right: 28px;
+}
+#header ul li:last-child {
+  width: 86px;
+  text-align: right;
 }
 
 #firstPost {
@@ -498,31 +483,22 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
-
 #firstPost img {
   display: block;
   /* Make sure the container DIV has the same height */
 }
-
 #firstPost > div:first-child ~ * {
   width: 902px;
   margin-left: auto;
   margin-right: auto;
 }
-
-.photodiary {
-  font-size: 14px;
+#firstPost .category {
+  font-size: 1.4rem;
   font-family: "Ubuntu";
   color: #b4ad9e;
   text-transform: uppercase;
   line-height: 1.2;
-  /*
-  position: absolute;
-  left: 150px;
-  top: 770.149px;
-  */
-  width: 85px;
-  height: 11px;
+  margin-top: 96px;
 }
 
 #firstPost .title {
