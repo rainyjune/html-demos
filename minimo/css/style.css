@@ -624,16 +624,16 @@ div.row p {
 }
 
 #loadMoreButton {
-  height: 60px;
-  width: 164px;
+  height: 6rem;
+  width: 16.4rem;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #626262;
-  line-height: 60px;
+  border: .1rem solid #626262;
+  line-height: 6rem;
   text-align: center;
 }
 #loadMoreButton a {
-  font-size: 20px;
+  font-size: 2rem;
   text-decoration: none;
   font-family: "Playfair Display";
   color: #626262;
