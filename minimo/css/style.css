@@ -533,67 +533,42 @@ div.row {
   width: 902px;
   margin-left: auto;
   margin-right: auto;
-  /*
-  background-color: blue;
-  */
   min-height: 100px;
   height: 494px;
   overflow: hidden;
   margin-top: 70px;
   margin-bottom: 70px;
 }
-
 div.row > div {
   width: 420px;
 }
-
 div.row > div:first-child {
   float: left;
 }
-
 div.row > div:last-child {
   float: right;
 }
-
-.lifestyle {
-  font-size: 14px;
+div.row .lifestyle {
+  font-size: 1.4rem;
   font-family: "Ubuntu";
   color: #b4ad9e;
   text-transform: uppercase;
   line-height: 1.2;
-  /*
-  position: absolute;
-  left: 629px;
-  top: 1565.149px;
-  */
-  width: 63px;
   height: 11px;
 }
-
-.row .title {
-  font-size: 30px;
+div.row .title {
+  font-size: 3rem;
   font-family: "Playfair Display";
   color: #626262;
   line-height: 1.2;
   font-weight: normal;
-  /*
-  position: absolute;
-  left: 628.75px;
-  top: 1604.583px;
-  */
 }
-
-.row p {
-  font-size: 14px;
+div.row p {
+  font-size: 1.4rem;
   font-family: "Playfair Display";
   color: #626262;
   line-height: 1.714;
   text-align: left;
-  /*
-  position: absolute;
-  left: 628.406px;
-  top: 1693.981px;
-  */
   width: 414px;
   height: 63px;
 }
@@ -604,7 +579,14 @@ div.row > div:last-child {
   display: table;
   width: 100%;
 }
-
+#newsletter .inputs {
+  position: relative;
+  width: 397px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  margin-top: 70px;
+}
 #newsletter form {
   width: 397px;
   margin-left: auto;
@@ -613,22 +595,12 @@ div.row > div:last-child {
   vertical-align: middle;
   text-align: center;
 }
-
 #newsletter form fieldset {
   border: none;
   width: 397px;
   margin-right: auto;
   margin-left: auto;
 }
-
-#newsletter form input[type=text] {
-  width: 397px;
-  border: none;
-  outline: none;
-  border-bottom: 1px solid black;
-  background-color: transparent;
-}
-
 #newsletter form fieldset legend {
   font-size: 30px;
   font-family: "Playfair Display";
@@ -638,20 +610,17 @@ div.row > div:last-child {
   width: 374px;
   height: 30px;
 }
-
-#newsletter form input[type=image] {
+#newsletter form fieldset input[type=text] {
+  width: 397px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+}
+#newsletter form fieldset input[type=image] {
   position: absolute;
   top: 0;
   right: 0;
-}
-
-#newsletter .inputs {
-  position: relative;
-  width: 397px;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden;
-  margin-top: 70px;
 }
 
 #loadMoreButton {
@@ -663,7 +632,6 @@ div.row > div:last-child {
   line-height: 60px;
   text-align: center;
 }
-
 #loadMoreButton a {
   font-size: 20px;
   text-decoration: none;
@@ -677,14 +645,12 @@ div.row > div:last-child {
   height: 99px;
   margin-top: 100px;
 }
-
 #footer .content {
   width: 980px;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
 }
-
 #footer ul.social {
   list-style: none;
   float: right;
@@ -694,16 +660,10 @@ div.row > div:last-child {
   margin: 0;
   margin-top: 40px;
 }
-
 #footer ul.social li {
   float: left;
   margin-right: 17px;
 }
-
-#footer ul.social li:last-child {
-  margin-right: 0;
-}
-
 #footer ul.social li a {
   text-decoration: none;
   display: block;
@@ -711,32 +671,29 @@ div.row > div:last-child {
   background-image: url(../images/social.gif);
   background-repeat: no-repeat;
 }
-
 #footer ul.social li:nth-child(1) a {
   background-position: 0px 0px;
   width: 8px;
 }
-
 #footer ul.social li:nth-child(2) a {
   background-position: -18px 0px;
   width: 18px;
 }
-
 #footer ul.social li:nth-child(3) a {
   background-position: -36px 0px;
   width: 15px;
 }
-
+#footer ul.social li:last-child {
+  margin-right: 0;
+}
 #footer ul.items {
   float: left;
   margin-top: 40px;
 }
-
 #footer ul.items li {
   float: left;
   margin-right: 17px;
 }
-
 #footer ul.items a {
   font-size: 14px;
   font-family: "Playfair Display";
