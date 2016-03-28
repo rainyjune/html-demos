@@ -1,0 +1,386 @@
+@import "normalize";
+
+html {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+body {
+  font-family: "Playfair Display";
+  padding-top: 70px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#header {
+  /*
+  background-color: red;
+  */
+  width: 1062px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header h1 {
+  font-family: "Inconsolata";
+  float: left;
+  font-size: 1.875em;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: 0.8;
+  color: rgb(0, 0, 0);
+  width: 119px;/* This value comes from Photoshop 'Copy CSS' */
+}
+
+#header h1 a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+#header ul {
+  float: right;
+  margin: 0; 
+  padding: 0;
+  list-style: none;
+}
+
+#header ul li {
+  display: inline-block;
+  width: 115px;
+  text-align: center;
+  /*
+  background-color: aqua;
+  */
+  vertical-align: top;
+}
+
+#header ul li:nth-child(1) {
+  margin-right: 87px;
+}
+
+#header ul li:nth-child(2) {
+  margin-right: 56px;
+}
+
+#header ul li:nth-child(3) {
+  margin-right: 28px;
+}
+
+#header ul li:last-child {
+  width: 86px;
+  text-align: right;
+}
+
+#header ul li a {
+  color: #626262;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.875em;
+  vertical-align: top;
+  display: block;
+  line-height: 1.714;
+}
+
+#header ul li a:hover {
+  color: red;
+}
+
+#firstPost {
+  padding-top: 46px;
+  width: 1062px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#firstPost img {
+  display: block; /* Make sure the container DIV has the same height */
+}
+
+#firstPost > div:first-child ~ * {
+  width: 902px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photodiary {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  /*
+  position: absolute;
+  left: 150px;
+  top: 770.149px;
+  */
+  width: 85px;
+  height: 11px;
+}
+
+#firstPost .title {
+  font-size: 30px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  /*
+  position: absolute;
+  left: 149.156px;
+  top: 809.598px;
+  */
+  width: 397px;
+  height: 30px;
+  font-weight: normal;
+}
+
+#firstPost p {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: left;
+  /*
+  position: absolute;
+  left: 149.004px;
+  top: 898.981px;
+  */
+  width: 893px;
+  height: 183px;
+}
+
+#firstPost .comment {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  /*
+  position: absolute;
+  left: 150px;
+  top: 1108.149px;
+  */
+  width: 123px;
+  height: 11px;
+}
+
+
+div.row {
+  width: 902px;
+  margin-left: auto;
+  margin-right: auto;
+  /*
+  background-color: blue;
+  */
+  min-height: 100px;
+  height: 494px;
+  overflow: hidden;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+div.row > div {
+  width: 420px;
+}
+
+div.row > div:first-child {
+  float: left;
+}
+
+div.row > div:last-child {
+  float: right;
+}
+
+.lifestyle {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  /*
+  position: absolute;
+  left: 629px;
+  top: 1565.149px;
+  */
+  width: 63px;
+  height: 11px;
+}
+
+.row .title {
+  font-size: 30px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  font-weight: normal;
+  /*
+  position: absolute;
+  left: 628.75px;
+  top: 1604.583px;
+  */
+}
+
+.row p {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: left;
+  /*
+  position: absolute;
+  left: 628.406px;
+  top: 1693.981px;
+  */
+  width: 414px;
+  height: 63px;
+}
+
+#newsletter {
+  height: 287px;
+  background-color: #f0f0f0;
+  display: table;
+  width: 100%;
+}
+
+#newsletter form {
+  width: 397px;
+  margin-left: auto;
+  margin-right: auto;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#newsletter form fieldset {
+  border: none;
+  width: 397px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#newsletter form input[type=text] {
+  width: 397px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+}
+
+#newsletter form fieldset legend {
+  font-size: 30px;
+  font-family: "Playfair Display";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: center;
+  width: 374px;
+  height: 30px;
+}
+
+#newsletter form input[type=image] {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#newsletter .inputs {
+  position: relative;
+  width: 397px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  margin-top: 70px;
+}
+
+#loadMoreButton {
+  height: 60px;
+  width: 164px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #626262;
+  line-height: 60px;
+  text-align: center;
+}
+
+#loadMoreButton a {
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  display: block;
+}
+
+#footer {
+  background-color: #f0f0f0;
+  height: 99px;
+  margin-top: 100px;
+}
+
+#footer .content {
+  width: 980px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer ul.social {
+  list-style: none;
+  float: right;
+  padding: 0;
+  width: 76px;
+  overflow: hidden;
+  margin: 0;
+  margin-top: 40px;
+}
+
+#footer ul.social li {
+  float: left;
+  margin-right: 17px;
+}
+
+#footer ul.social li:last-child {
+  margin-right: 0;
+}
+
+#footer ul.social li a {
+  text-decoration: none;
+  display: block;
+  text-indent: 876px;
+  background-image: url(../images/social.gif);
+  background-repeat: no-repeat;
+}
+
+#footer ul.social li:nth-child(1) a {
+  background-position: 0px 0px;
+  width: 8px;
+}
+#footer ul.social li:nth-child(2) a {
+  background-position: -18px 0px;
+  width: 18px;
+}
+#footer ul.social li:nth-child(3) a {
+  background-position: -36px 0px;
+  width: 15px;
+}
+
+#footer ul.items {
+  float: left;
+  margin-top: 40px;
+}
+
+#footer ul.items li {
+  float: left;
+  margin-right: 17px;
+}
+
+#footer ul.items a {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(0, 0, 0);
+  line-height: 1.714;
+  text-decoration: none;
+}
+
