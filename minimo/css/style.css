@@ -431,13 +431,18 @@ ul {
   letter-spacing: 0.2em;
   line-height: 0.8;
   color: black;
-  width: 11.9rem;
+  width: 12.6rem;
   /* This value comes from Photoshop 'Copy CSS' */
 }
 #header h1 a {
   font-size: 3rem;
   text-decoration: none;
   color: black;
+  text-indent: 999px;
+  display: block;
+  overflow: hidden;
+  height: 2.4rem;
+  background: url(../images/minimo.png) no-repeat;
 }
 #header ul {
   float: right;
