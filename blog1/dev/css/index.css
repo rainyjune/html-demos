@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  background-color: #282828;
+  min-width: 1638px;
+}
+
+.container {
+  width: 1638px;
+  margin: 0 auto;
+  background-color: #f9f9fb;
+}
+
+.container .top {
+  height: 346px;
+  background-color: #212429;
+}
+
+.container .top .content {
+  width: 1530px;
+  margin: 0 auto;
+}
+
+.container .top .content .header {
+  height: 55px;
+}
+
+.container .top .content .header .menu {
+  float: left;
+}
+
+.container .top .content .header .menu img {
+  vertical-align: top;
+}
+
+.container .top .content .header .logo {
+  line-height: 55px;
+  width: 151px;
+  margin: 0 auto;
+}
+
+.container .top .content .header .icons {
+  float: right;
+  height: 100%;
+  min-width: 270px;
+}
+
+.container .top .content .header .icons a {
+  display: inline-block;
+  border-left: 1px solid #3c3c3c;
+  width: 55px;
+  height: 100%;
+  float: left;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.container .top .content .header .icons a:last-child {
+  border-right: 1px solid #3c3c3c;
+}
+
+.container .top .content .header .icons a:nth-child(1) {
+  background-image: url(../images/rss.png);
+}
+.container .top .content .header .icons a:nth-child(2) {
+  background-image: url(../images/twitter.png);
+}
+.container .top .content .header .icons a:nth-child(3) {
+  background-image: url(../images/tumbler.png);
+}
+.container .top .content .header .icons a:nth-child(4) {
+  background-image: url(../images/facebook.png);
+}
+.container .top .content .header .icons a:nth-child(5) {
+  background-image: url(../images/search.png);
+}
