@@ -4,7 +4,7 @@ body {
   min-width: 1638px;
 }
 
-legend,
+h2,
 input {
   margin: 0;
   padding: 0;
@@ -88,21 +88,16 @@ input {
   margin-left: auto;
   margin-right: auto;
   background-color: #f7f7f7;
+  padding-top: 28px;
+  box-sizing: border-box;
 }
 
-#newsletter form {
-  height: 100%;
+#newsletter form h2,
+#newsletter form input {
+  float: left;
 }
 
-#newsletter form fieldset {
-  border: none;
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  line-height: 100px;
-}
-
-#newsletter form legend {
+#newsletter form h2 {
   display: inline-block;
   width: 175px;
   height: 44px;
@@ -113,6 +108,8 @@ input {
   text-transform: uppercase;
   line-height: 1.4;
   text-align: left;
+  background-color: red;
+  margin-left: 29px;
 }
 
 #newsletter form input {
@@ -120,6 +117,18 @@ input {
   height: 50px;
   background-color: #fff;
   border: 1px solid #f3f3f3; 
+}
+
+#newsletter form input[type=text] {
+  margin-left: 55px;
+}
+
+#newsletter form input[type=email] {
+  margin-left: 28px;
+}
+
+#newsletter form input[type=submit] {
+  margin-left: 30px;
 }
 
 #newsletter form input[placeholder] {
