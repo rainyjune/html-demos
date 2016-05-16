@@ -4,6 +4,12 @@ body {
   min-width: 1638px;
 }
 
+legend,
+input {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   width: 1638px;
   margin: 0 auto;
@@ -73,4 +79,66 @@ body {
 }
 .container .top .content .header .icons a:nth-child(5) {
   background-image: url(../images/search.png);
+}
+
+#newsletter {
+  width: 1530px;
+  height: 100px;
+  margin-top: 290px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f7f7f7;
+}
+
+#newsletter form {
+  height: 100%;
+}
+
+#newsletter form fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  line-height: 100px;
+}
+
+#newsletter form legend {
+  display: inline-block;
+  width: 175px;
+  height: 44px;
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(33, 33, 33);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.4;
+  text-align: left;
+}
+
+#newsletter form input {
+  width: 450px;
+  height: 50px;
+  background-color: #fff;
+  border: 1px solid #f3f3f3; 
+}
+
+#newsletter form input[placeholder] {
+  font-size: 15px;
+  font-family: "Hind";
+  color: rgb(153, 153, 153);
+  line-height: 1.867;
+  text-align: left;
+  padding-left: 29px;
+  box-sizing: border-box;
+}
+
+#newsletter form input[type=submit] {
+  width: 280px;
+  background-color: #212121;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.714;
 }
