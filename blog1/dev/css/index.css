@@ -15,41 +15,33 @@ input {
   margin: 0 auto;
   background-color: #f9f9fb;
 }
-
 .container .top {
   height: 346px;
   background-color: #212429;
 }
-
 .container .top .content {
   width: 1530px;
   margin: 0 auto;
 }
-
 .container .top .content .header {
   height: 55px;
 }
-
 .container .top .content .header .menu {
   float: left;
 }
-
 .container .top .content .header .menu img {
   vertical-align: top;
 }
-
 .container .top .content .header .logo {
   line-height: 55px;
   width: 151px;
   margin: 0 auto;
 }
-
 .container .top .content .header .icons {
   float: right;
   height: 100%;
   min-width: 270px;
 }
-
 .container .top .content .header .icons a {
   display: inline-block;
   border-left: 1px solid #3c3c3c;
@@ -60,11 +52,9 @@ input {
   background-position: center;
   cursor: pointer;
 }
-
 .container .top .content .header .icons a:last-child {
   border-right: 1px solid #3c3c3c;
 }
-
 .container .top .content .header .icons a:nth-child(1) {
   background-image: url(../images/rss.png);
 }
@@ -91,63 +81,78 @@ input {
   padding-top: 28px;
   box-sizing: border-box;
 }
-
 #newsletter form h2,
 #newsletter form input {
   float: left;
 }
-
 #newsletter form h2 {
   display: inline-block;
   width: 175px;
   height: 44px;
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
-  color: rgb(33, 33, 33);
+  color: #212121;
   font-weight: bold;
   text-transform: uppercase;
   text-align: left;
   margin-left: 29px;
 }
-
 #newsletter form input {
   width: 450px;
   height: 50px;
   background-color: #fff;
-  border: 1px solid #f3f3f3; 
+  border: 1px solid #f3f3f3;
 }
-
 #newsletter form input[type=text] {
   margin-left: 55px;
 }
-
 #newsletter form input[type=email] {
   margin-left: 28px;
 }
-
 #newsletter form input[type=submit] {
   margin-left: 30px;
 }
-
 #newsletter form input[placeholder] {
   font-size: 15px;
   font-family: 'Hind', sans-serif;
-  color: rgb(153, 153, 153);
+  color: #999999;
   line-height: 1.867;
   text-align: left;
   padding-left: 29px;
   box-sizing: border-box;
   font-weight: 300;
 }
-
 #newsletter form input[type=submit] {
   width: 280px;
   background-color: #212121;
   color: #fff;
   font-size: 14px;
   font-family: 'Hind', sans-serif;
-  color: rgb(255, 255, 255);
+  color: white;
   text-transform: uppercase;
   line-height: 1.714;
   font-weight: 500;
+}
+
+#content {
+  width: 1530px;
+  height: 1620px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+#content .tile {
+  box-sizing: border-box;
+  width: 360px;
+  min-height: 175px;
+  border: 1px solid #f5f5f7;
+  margin-bottom: 29px;
+  margin-right: 30px;
+  background-color: #fff;
 }
