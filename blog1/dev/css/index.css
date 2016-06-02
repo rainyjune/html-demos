@@ -150,9 +150,22 @@ input {
 #content .tile {
   box-sizing: border-box;
   width: 360px;
-  min-height: 175px;
   border: 1px solid #f5f5f7;
   margin-bottom: 29px;
   margin-right: 30px;
+}
+#content .tile .icon {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: -18px;
+}
+#content .tile .content {
   background-color: #fff;
+  min-height: 175px;
+}
+#content .blog .icon {
+  width: 40px;
+  height: 35px;
+  background-color: #212121;
 }
