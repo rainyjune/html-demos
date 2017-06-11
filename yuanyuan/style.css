@@ -74,21 +74,22 @@ a {
   height: 40px;
 }
 
-#header .navibar li {
+#header .navibar > li {
   float: left;
+  position: relative;
 }
 
-#header .navibar li:hover,
-#header .navibar li.active {
+#header .navibar > li:hover,
+#header .navibar > li.active {
   background-color: #ff0000;
 }
 
-#header .navibar li:hover a,
-#header .navibar li.active a {
+#header .navibar > li:hover > a,
+#header .navibar > li.active > a {
   color: #fff;
 }
 
-#header .navibar li a {
+#header .navibar > li a {
   display: block;
   width: 84px;
   height: 40px;
@@ -99,6 +100,28 @@ a {
   font-family: "Microsoft YaHei";
   color: #3d3d3d;
 }
+
+#header .navibar > li ul {
+  position: absolute;
+  left: 0;
+  top: 40px;
+  border: 1px solid #e0e0e0;
+  display: none;
+
+  color: #5a5a5a;
+}
+
+#header .navibar > li ul li {
+  background-color: #fff;
+  border-top: 1px solid #e0e0e0;
+}
+
+#header .navibar > li:hover ul,
+#header .navibar > li.active ul {
+  display: block;
+  z-index: 999;
+}
+
 
 #slider {
   border-top: 6px solid #0059b5;
