@@ -150,3 +150,56 @@ a {
 #slider-container .slidesjs-navigation {
   display: none;
 }
+
+#services {
+  width: 1000px;
+  height: 397px;
+  margin-top: 56px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#services h2 {
+  font-size: 24px;
+  font-family: "Microsoft YaHei";
+  color: rgb(0, 0, 0);
+  line-height: 1.256;
+  text-align: center;
+}
+
+#services ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#services ul li {
+  width: 270px;
+  height: 312px;
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#services ul li:nth-child(1) {
+  background-color: #fde07d;
+}
+#services ul li:nth-child(2) {
+  background-color: #7292fa;
+}
+#services ul li:nth-child(3) {
+  background-color: #fba96c;
+}
+
+#services ul li h3 {
+  text-align: center;
+}
+
+#services ul li div.content {
+  border-top: 1px dotted #898989;
+  width: 236px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding-top: 25px;
+  margin-top: 5px;
+}
