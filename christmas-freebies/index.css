@@ -1,0 +1,39 @@
+body {
+  background-color: #ffe3cc;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1576px;
+  height: 1488px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  box-sizing: border-box;
+  padding-top: 28px;
+}
+
+.header {
+  margin: 0 18px 22px 20px;
+  height: 48px;
+  position: relative;
+}
+
+.header form {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.header form input {
+  float: left;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.header form input[type=text] {
+  border: 1px solid #f0c3b8;
+  width: 421px;
+  padding-left: 10px;
+}
