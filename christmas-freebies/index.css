@@ -37,3 +37,19 @@ body {
   width: 421px;
   padding-left: 10px;
 }
+
+.menu {
+  background-color: yellow;
+  width: 113px;
+  height: 1391px;
+  margin-left: 20px;
+  float: left;
+}
+
+.grid {
+  background-color: aqua;
+  width: 1402px;
+  height: 1372px;
+  float: right;
+  margin-right: 20px;
+}
