@@ -53,4 +53,21 @@ body {
   height: 1372px;
   float: right;
   margin-right: 20px;
+  display: grid;
+
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+
+  grid-template-columns: 461px 461px 461px;
+  grid-template-rows: 220px 220px 220px 220px;
+}
+
+.grid .node {
+  background-color: yellow;
+}
+
+.grid .article {
+  background-color: green;
+  grid-column: 2 / span 2;
+  grid-row: 2 / span 4;
 }
