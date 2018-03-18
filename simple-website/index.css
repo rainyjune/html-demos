@@ -3,8 +3,9 @@ body {
   font-family: "Open Sans";
 }
 
-h1 {
+h1, h2 {
   text-align: center;
+  text-transform: uppercase;
 }
 ul {
   list-style: none;
@@ -133,4 +134,42 @@ a {
   width: 128px;
   border: none;
   cursor: pointer;
+}
+
+.services {
+  max-width: 1140px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  background-color: #f5f5f5;
+}
+
+.services .service {
+  width: 570px;
+  height: 212px;
+}
+
+.services .service .bgimg {
+  overflow: hidden;
+}
+
+.services .service .text-box {
+  background-color: green;
+  color: white;
+}
+
+.services .service:nth-child(1) .text-box,
+.services .service:nth-child(2) .text-box{
+  background-color: #613701;
+}
+
+.services .service:nth-child(1) .bgimg,
+.services .service:nth-child(2) .bgimg {
+  order: 1;
+}
+
+.services .service:nth-child(3) .text-box,
+.services .service:nth-child(4) .text-box{
+  background-color: #20385f;
 }
