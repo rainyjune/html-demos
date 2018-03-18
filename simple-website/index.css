@@ -1,3 +1,11 @@
+body {
+  font-size: 14px;
+  font-family: "Open Sans";
+}
+
+h1 {
+  text-align: center;
+}
 ul {
   list-style: none;
   padding: 0;
@@ -92,4 +100,37 @@ a {
 
 .main-header .nav li:nth-last-child(1) {
   padding: 0;
+}
+
+.features {
+  text-align: center;
+}
+
+.features h2 {
+  background-repeat: no-repeat;
+  padding-top: 158px;
+  background-position: top center;
+}
+
+.features h2.responsive {
+  background-image: url(images/fa-desktop-icon.png);
+}
+
+.features h2.awesome {
+  background-image: url(images/fa-gears.png);
+}
+
+.features h2.coordnation {
+  background-image: url(images/fa-users.png);
+}
+
+.features .column button {
+  background-color: #f7ce4f;
+  color: rgb(255, 255, 255);
+  line-height: 2.571;
+  text-align: center;
+  box-sizing: border-box;
+  width: 128px;
+  border: none;
+  cursor: pointer;
 }
