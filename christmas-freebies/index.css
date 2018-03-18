@@ -91,14 +91,16 @@ body {
 .grid .node:nth-child(2) .icon,
 .grid .node:nth-child(3) .icon,
 .grid .node:nth-child(5) .icon,
-.grid .node:nth-child(7) .icon {
+.grid .node:nth-child(7) .icon,
+.grid .node:nth-child(9) .icon {
   position: absolute;
   left: 10px;
   top: 10px;
 }
 
 .grid .node:nth-child(4) .icon,
-.grid .node:nth-child(6) .icon {
+.grid .node:nth-child(6) .icon,
+.grid .node:nth-child(8) .icon {
   position: absolute;
   right: 10px;
   top: 10px;
@@ -113,7 +115,8 @@ body {
 }
 
 .grid .node:nth-child(4) img.pic,
-.grid .node:nth-child(6) img.pic {
+.grid .node:nth-child(6) img.pic,
+.grid .node:nth-child(8) img.pic {
   position: absolute;
   right: 0;
   top: 0;
@@ -183,7 +186,9 @@ body {
 .grid .node:nth-child(2) .content,
 .grid .node:nth-child(3) .content,
 .grid .node:nth-child(5) .content,
-.grid .node:nth-child(7) .content {
+.grid .node:nth-child(7) .content,
+.grid .node:nth-child(9) .content,
+.grid .node:nth-child(10) .content {
   position: absolute;
   top: 0;
   right: 0;
@@ -192,7 +197,8 @@ body {
 }
 
 .grid .node:nth-child(4) .content,
-.grid .node:nth-child(6) .content {
+.grid .node:nth-child(6) .content,
+.grid .node:nth-child(8) .content {
   position: absolute;
   top: 0;
   left: 0;

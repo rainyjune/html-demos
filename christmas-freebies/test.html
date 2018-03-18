@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>CSS Grid Layout</title>
+    <style type="text/css">
+      .item-a {
+        grid-area: header;
+      }
+      .item-b {
+        grid-area: main;
+      }
+      .item-c {
+        grid-area: sidebar;
+      }
+      .item-d {
+        grid-area: footer;
+      }
+      .item {
+        background-color: aqua;
+      }
+
+      .item-8 {
+        grid-column: 3 / span 3;
+        grid-row: 2 / span 2;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
+        grid-template-rows: [row1-start] 25% [row1-end row2-start] 100px [third-line] auto [last-line];
+        /*
+        grid-template-areas:
+          "header header header header"
+          "main main . sidebar"
+          "footer footer footer footer";
+        */
+        grid-column-gap: 10px;
+        grid-row-gap: 15px;
+        justify-items: stretch;
+        align-items: stretch;
+
+        justify-content: stretch;
+        align-content: stretch;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item item-8">8</div>
+      <!--
+      <div class="item">9</div>
+      <div class="item">10</div>-->
+      <div class="item">11</div>
+      <div class="item">12</div>
+      <div class="item">13</div>
+      <div class="item">14</div>
+      <div class="item">15</div>
+    </div>
+  </body>
+</html>
